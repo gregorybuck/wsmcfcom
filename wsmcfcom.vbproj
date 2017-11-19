@@ -375,7 +375,6 @@
     <Content Include="public_html\images\_vti_cnf\powered.gif" />
     <Content Include="public_html\images\_vti_cnf\top.gif" />
     <Content Include="public_html\index.htm" />
-    <Content Include="public_html\mobiles.PNG" />
     <Content Include="public_html\nav\logo_96.gif" />
     <Content Include="public_html\nav\nav_r1_c1.gif" />
     <Content Include="public_html\nav\nav_r1_c1_f2.gif" />
@@ -477,7 +476,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="public_html\charters\rio_charters_ENG.pdf" />
-    <None Include="public_html\DEV\foundation.psd" />
     <None Include="public_html\foundation\_notes\foundation2.htm.mno" />
     <None Include="public_html\front_slices\gifs\Thumbs.db" />
     <None Include="public_html\front_slices\Thumbs.db" />
@@ -498,7 +496,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="public_html\adrianmills45\" />
     <Folder Include="public_html\cgi-bin\" />
     <Folder Include="public_html\next_summit\images\" />
   </ItemGroup>
