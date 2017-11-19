@@ -1,0 +1,286 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2006-11 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2546                
+POS_VISITOR 3279                
+POS_DAY 3809                
+POS_DOMAIN 4170                
+POS_LOGIN 4428                
+POS_ROBOT 4583                
+POS_WORMS 4810                
+POS_EMAILSENDER 4941                
+POS_EMAILRECEIVER 5084                
+POS_SESSION 5160                
+POS_SIDER 5337                
+POS_FILETYPES 5923                
+POS_OS 6061                
+POS_BROWSER 6130                
+POS_SCREENSIZE 6233                
+POS_UNKNOWNREFERER 6307                
+POS_UNKNOWNREFERERBROWSER 6394                
+POS_ORIGIN 6476                
+POS_SEREFERRALS 6609                
+POS_PAGEREFS 6764                
+POS_SEARCHWORDS 6991                
+POS_KEYWORDS 7159                
+POS_MISC 2210                
+POS_ERRORS 7234                
+POS_CLUSTER 4284                
+POS_SIDER_404 7334                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20061201110609 1209 252555 22338777101
+FirstTime 20061103155621
+LastTime 20061125042251
+LastUpdate 20061204210738 837 0 836 0 0
+TotalVisits 13                  
+TotalUnique 10                  
+MonthHostsKnown 5                   
+MonthHostsUnknown 5                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 2 2 12024
+3 0 0 0 0 0 0
+4 1 1 11522 0 0 0
+5 1 1 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 13 13 180342 1 1 514
+9 0 0 0 0 0 0
+10 0 0 0 2 2 8694
+11 2 60 99174 2 9 12292
+12 2 58 0 2 3 9196
+13 10 164 408390 2 18 16726
+14 4 24 0 0 7 3514
+15 7 184 354125 0 0 0
+16 9 234 208026 0 0 0
+17 0 0 0 2 2 12024
+18 5 5 87105 4 4 1530
+19 0 0 0 0 0 0
+20 2 2 11522 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 1 1 11522 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+193.235.28.11 16 246 408390 20061124133114
+38.100.41.105 13 13 180342 20061108085623
+165.254.52.2 10 233 354125 20061103160010
+87.242.149.88 6 185 208026 20061113160937
+208.17.184.64 5 5 87105 20061113182812
+elan.rh.rit.edu 2 2 11522 20061112203037
+c83-253-146-92.bredband.comhem.se 2 60 99174 20061110115144
+half-price-network.com 1 1 11522 20061125042251
+server291.crawler09.com 1 1 0 20061117055011
+host204-13-162-10.oversee.net 1 1 11522 20061107233625
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20061103 10 233 354125 1
+20061107 1 1 11522 1
+20061108 13 13 180342 1
+20061110 2 60 99174 1
+20061112 2 2 11522 1
+20061113 11 190 295131 2
+20061117 1 1 0 1
+20061120 9 114 408390 1
+20061123 6 82 0 2
+20061124 1 50 0 1
+20061125 1 1 11522 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+us 39 499 951816
+se 16 246 408390
+ip 2 2 11522
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+jeeves 1 11522 20061104021644 0
+spider 1 11522 20061123172131 0
+googlebot 1 0 20061116180045 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+2mn-5mn 2
+30s-2mn 1
+0s-30s 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 17 103698 12 7
+/foundation/foundation.htm 6 111490 0 0
+/about/about.htm 5 67200 1 1
+/past_summits/past.htm 5 100968 0 0
+/next_summit/next.htm 4 34152 0 0
+/tender/tender.htm 4 31383 0 0
+/charters/charter.htm 3 33729 0 1
+/past_summits/ws_04.htm 3 24022 0 0
+/contact/contact.htm 3 17058 0 1
+/tender/WStender.pdf 2 17266 0 2
+/research/research.htm 2 26110 0 0
+/past_summits/ws_02.htm 1 12148 0 0
+/past_summits/ws_03.htm 1 13209 0 0
+/past_summits/ws_01.htm 1 12440 0 1
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 17 103698 0 0
+pdf 2 17266 0 0
+jpg 44 316711 0 0
+htm 38 483909 0 0
+gif 646 450144 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 3
+winxp 606
+win2000 132
+linux 9
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 4
+msie6.0 738
+firefox1.0.7 6
+firefox1.0 1
+firefox1.5 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 9
+From1 1 1
+From2 3 3
+From3 4 4
+From4 40 730
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://en.wikipedia.org/wiki/Patricia_Edgar 3 3
+http://www.spidervisit.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+www.wsmcf.com 3
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+www.wsmcf.com 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 4 32768
+404 41 20702
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 11
+/past_summits/past_frame.htm 1 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c5_f2.gif 4 http://www.wsmcf.com/about/about.htm
+/robots.txt 9 http://www.whois.sc/
+/about/front_slices/gifs/index_r2_c2_f2.gif 4 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c4_f2.gif 4 http://www.wsmcf.com/about/about.htm
+/research/front_slices/gifs/spacer.gif 1 http://www.wsmcf.com/research/research.htm
+/images/bg_contact1.jpg 2 http://www.wsmcf.com/contact/contact.htm
+/about/front_slices/gifs/index_r2_c6_f2.gif 4 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c9_f2.gif 4 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c7_f2.gif 4 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c3_f2.gif 4 http://www.wsmcf.com/about/about.htm
+END_SIDER_404

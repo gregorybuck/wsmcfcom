@@ -1,0 +1,467 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2007-04 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2545                
+POS_VISITOR 9127                
+POS_DAY 12391               
+POS_DOMAIN 3346                
+POS_LOGIN 3773                
+POS_ROBOT 3928                
+POS_WORMS 4233                
+POS_EMAILSENDER 4364                
+POS_EMAILRECEIVER 4507                
+POS_SESSION 13032               
+POS_SIDER 13233               
+POS_FILETYPES 4642                
+POS_OS 4808                
+POS_BROWSER 4920                
+POS_SCREENSIZE 5172                
+POS_UNKNOWNREFERER 5246                
+POS_UNKNOWNREFERERBROWSER 5610                
+POS_ORIGIN 5904                
+POS_SEREFERRALS 6044                
+POS_PAGEREFS 6220                
+POS_SEARCHWORDS 6777                
+POS_KEYWORDS 7400                
+POS_MISC 2208                
+POS_ERRORS 7929                
+POS_CLUSTER 3629                
+POS_SIDER_404 8033                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20070501000945 123 22404 42258785606
+FirstTime 20070401033317
+LastTime 20070430173612
+LastUpdate 20070501111809 123 0 122 0 0
+TotalVisits 75                  
+TotalUnique 58                  
+MonthHostsKnown 47                  
+MonthHostsUnknown 14                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 11 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 70 226170 27 27 208545
+1 2 54 98571 17 22 3353356
+2 2 2 23533 13 13 54799
+3 2 2 24577 19 19 59181
+4 4 4 50060 19 20 3333741
+5 3 73 302886 19 27 126996
+6 14 263 779631 15 19 58687
+7 10 111 609903 28 30 7123493
+8 11 164 450245 17 21 144576
+9 12 12 705361 12 13 144474
+10 13 242 774333 26 34 10096940
+11 17 57 520644 20 20 3499325
+12 16 226 536887 27 34 416429
+13 7 104 393876 17 25 115453
+14 5 30 98924 32 34 6904125
+15 3 60 115844 13 14 59662
+16 15 38 227854 20 20 4765904
+17 4 78 154917 13 16 71993
+18 2 2 36701 22 22 166206
+19 16 104 881119 30 33 12274706
+20 5 101 514516 49 49 10563313
+21 0 0 0 29 29 435480
+22 18 229 1013017 28 46 203075
+23 6 145 514657 21 30 126887
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+us 124 920 4900389
+se 14 327 598550
+gb 13 187 616118
+au 8 162 711778
+eu 8 204 497365
+ir 7 123 448861
+br 5 70 226170
+ip 5 114 254017
+ar 2 2 23044
+sg 2 2 344415
+ca 1 32 208503
+fr 1 26 46932
+nz 1 1 66732
+in 1 1 111352
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+msnbot 144 42231464 20070429101756 0
+slurp 70 15802908 20070430232036 0
+googlebot 33 5084764 20070430231254 0
+jeeves 4 46088 20070430102359 0
+crawl 4 46088 20070420205935 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+png 46 1666013 0 0
+html 45 506968 0 0
+jpg 104 1109796 0 0
+pdf 15 1463550 0 0
+htm 132 2038159 0 0
+gif 1829 2269740 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 338
+winxp 1548
+win2003 51
+win2000 165
+win98 1
+Unknown 49
+linux 19
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 15
+msie6.0 1123
+firefox1.0.7 18
+mozilla 7
+firefox1.0 1
+firefox2.0.0.3 269
+msie7.0 137
+firefox2.0 50
+firefox1.5.0.11 226
+msie5.0 1
+firefox1.0.6 89
+msie5.5 2
+Unknown 42
+safari 24
+camino 112
+firefox1.0.4 70
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+bot/1.0_(bot;_http://;_bot@bot.bot) 20070423203051
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070425021315
+Mozilla/4.0_(compatible;_T-H-U-N-D-E-R-S-T-O-N-E) 20070403091658
+panscient.com 20070416111417
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070430154952
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+bot/1.0_(bot;_http://;_bot@bot.bot) 20070423203051
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070425021315
+panscient.com 20070416111417
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070430154952
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 69 69
+From1 2 2
+From2 19 19
+From3 10 10
+From4 92 2071
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 10 10
+search 5 5
+msn 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://www.pingdom.com/monitor/www.wsmcf.com 3 3
+http://www.aibd.org.my/homepage/article.cgi/209.html 2 2
+http://www.wskarlstad2010.se/press_release.pdf 1 1
+http://81.4.66.170/icca/icca_sparxdir/icca_online/index.cfm 1 1
+http://en.wikipedia.org/wiki/Patricia_Edgar 1 1
+http://by126w.bay126.mail.live.com/mail/ReadMessageLight.aspx 1 1
+http://www.multirio.rj.gov.br/portal/riomidia/rm_materia_conteudo.asp 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 17
+web 2
+gambling 1
+promotional+activity+ideas+for+broadband+pune 1
+summit+greece 1
+jankovich+marczel 1
+television+producer 1
+kids+knowledge+about+the+nile+nd+what+it+meant+to+egyptians 1
+en-gb 1
+a+tender+document 1
+research+television+and+young+children 1
+media+proposal+kids+tv+singapore 1
+how+globalization+affects+indian+media+scenario+youngsters 1
+www.wsmcf.com 1
+tender+document 1
+children+and+television+world+summit 1
+toronto+canada+t.v.+directors+adrian 1
+en-sg 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 51
+television 3
+document 2
+children 2
+summit 2
+web 2
+media 2
+tender 2
+kids 2
+and 2
+the 1
+toronto 1
+a 1
+egyptians 1
+activity 1
+promotional 1
+globalization 1
+proposal 1
+producer 1
+about 1
+canada 1
+jankovich 1
+en-sg 1
+gambling 1
+en-gb 1
+what 1
+broadband 1
+how 1
+for 1
+singapore 1
+meant 1
+nd 1
+greece 1
+affects 1
+pune 1
+nile 1
+t.v. 1
+marczel 1
+scenario 1
+world 1
+research 1
+young 1
+www.wsmcf.com 1
+indian 1
+to 1
+tv 1
+it 1
+directors 1
+knowledge 1
+youngsters 1
+adrian 1
+ideas 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 34 930238
+404 328 165796
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 11
+/past_summits/past_frame.htm 47 -
+/about/front_slices/gifs/index_r2_c5_f2.gif 7 http://www.wsmcf.com/about/about.htm
+/robots.txt 218 -
+/about/front_slices/gifs/index_r2_c2_f2.gif 7 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c4_f2.gif 7 http://www.wsmcf.com/about/about.htm
+/research/front_slices/gifs/spacer.gif 7 http://www.wsmcf.com/research/research.htm
+/images/bg_contact1.jpg 7 http://www.wsmcf.com/contact/contact.htm
+/about/front_slices/gifs/index_r2_c6_f2.gif 7 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c9_f2.gif 7 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c3_f2.gif 7 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c7_f2.gif 7 http://www.wsmcf.com/about/about.htm
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 61
+38.100.41.112 13 13 184012 20070406164726
+panscient_data_services.demarc.cogentco.com 13 13 184012 20070416111417
+71-13-115-117.static.mdsn.wi.charter.com 11 11 159561 20070423203051
+bb-87-82-16-63.ukonline.co.uk 10 117 526034 20070401223602
+thing.verisignlabs.com 10 13 260437 20070425194832
+abts-ncr-dynamic-123.152.162.122.airtelbroadband.in 8 109 487029 20070405071730
+cdif-cache-6.server.ntli.net 8 112 486983 20070401222150
+copilot.thunderstone.com 7 7 110688 20070403091658
+62.220.121.74 7 123 448861 20070416065922
+a82-94-123-242.adsl.xs4all.nl 6 104 442010 20070410105454
+196.222.164.200.smart.net.br 5 70 226170 20070421005203
+208.17.184.59 5 5 94421 20070409121529
+fireexit.lararforbundet.se 4 89 229642 20070402122225
+host86-142-148-52.range86-142.btcentralplus.com 4 124 382788 20070428062108
+210-15-225-58-static.vic.netspace.net.au 4 87 228885 20070410065057
+62.108.197.40 4 62 119151 20070404084553
+c80-216-53-144.bredband.comhem.se 4 76 323637 20070417130028
+sbider8.sitebuildit.com 4 4 44782 20070430154952
+193.235.28.11 3 91 32441 20070410125901
+roltip.lg.se 3 85 217316 20070402101624
+3a.72.5546.static.theplanet.com 3 3 34566 20070425021315
+c220-239-105-175.lowrp1.vic.optusnet.com.au 3 74 211797 20070428233800
+adsl-76-200-104-30.dsl.irvnca.sbcglobal.net 3 71 302860 20070423230252
+87-198-112-158.ptr.magnet.ie 2 24 37037 20070419125327
+200.109.8-90.dyn.dsl.cantv.net 2 59 104322 20070402152102
+webgw2.thls.bbc.co.uk 0 6 11885 
+92.f5.344a.static.theplanet.com 1 1 11522 20070424103537
+lvsb-lan.cs.149.static.vsnl.net.in 1 1 111352 20070409074212
+87.203.79.166 1 50 79523 20070429101045
+unnassigned.bostondatacenters.com 1 1 11522 20070411134226
+tide525.microsoft.com 1 1 11522 20070417191843
+webgw0.thls.bbc.co.uk 0 15 15143 
+dex-252-16.dxi.net 1 1 11522 20070413132237
+58.240.79.245 1 31 198980 20070429081806
+host86-154-89-226.range86-154.btcentralplus.com 2 2 234474 20070417113822
+sbider5.sitebuildit.com 2 2 23533 20070415122522
+host-196.219.199.144.tedata.net 1 1 51124 20070411122552
+cpc3-swin6-0-0-cust823.sol2.cable.ntl.com 2 37 232725 20070406190250
+dsl5401cdff.pool.t-online.hu 1 1 292283 20070403191436
+200.109.12-248.dyn.dsl.cantv.net 2 54 98571 20070402015943
+203.117.148.153 1 1 292283 20070420091429
+sbider2.sitebuildit.com 1 1 12148 20070401084936
+bb-205-209-84-170.gwi.net 1 32 208503 20070429200156
+unknown-host.customer.tiba.com 2 2 23044 20070404093005
+217.20.250.213 0 27 40310 
+nsc.ciup.fr 1 26 46932 20070407145023
+217.20.250.11 2 76 89576 20070430173612
+202.83.32.250 1 1 66732 20070417083048
+a82-95-36-172.adsl.xs4all.nl 1 50 79523 20070405130606
+sbider1.sitebuildit.com 2 2 23962 20070427061718
+194.129.65.122 2 25 43842 20070417163044
+sbider3.sitebuildit.com 2 2 24795 20070413204255
+sbider7.sitebuildit.com 2 2 28322 20070420180112
+c83-253-152-108.bredband.comhem.se 2 67 283812 20070401201823
+195.194.139.20 2 25 43842 20070424191202
+80-41-82-215.dynamic.dsl.as9105.com 1 23 26576 20070416123746
+sbider4.sitebuildit.com 2 2 21983 20070424142341
+palo12.pacific.net.sg 1 1 52132 20070401173604
+203-214-116-103.dyn.iinet.net.au 1 1 271096 20070430093214
+64.210.196.197 1 50 79523 20070413115938
+webgw1.thls.bbc.co.uk 1 5 20167 20070404135144
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20070401 26 302 1412947 9
+20070402 13 289 671589 5
+20070403 10 10 427422 4
+20070404 6 89 177868 3
+20070405 10 160 578074 3
+20070406 15 50 416737 2
+20070407 1 26 46932 1
+20070409 6 6 205773 2
+20070410 13 282 703336 4
+20070411 2 2 62646 2
+20070413 3 52 102785 3
+20070414 4 74 314408 2
+20070415 1 1 11522 1
+20070416 21 159 659449 3
+20070417 11 106 691729 6
+20070419 2 24 37037 1
+20070420 2 2 303805 2
+20070421 5 70 226170 1
+20070423 14 82 462421 7
+20070424 4 27 66886 3
+20070425 11 14 271959 2
+20070427 1 1 11522 1
+20070428 4 125 291699 2
+20070429 3 113 487006 3
+20070430 4 105 412504 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+15mn-30mn 2
+0s-30s 57
+2mn-5mn 1
+30s-2mn 12
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 42 472402 41 17
+/foundation/foundation.htm 22 593540 5 12
+/next_summit/next.htm 16 116070 1 3
+/tender/tender.htm 14 146454 6 4
+/about/about.htm 14 235200 1 4
+/past_summits/past.htm 14 352506 0 3
+/contact/contact.htm 12 102348 0 4
+/charters/charter.htm 10 112430 0 2
+/research/research.htm 10 130550 2 2
+/past_summits/pdf/finrep3.pdf 8 1359954 7 8
+/tender/WStender.pdf 7 103596 0 4
+/past_summits/ws_01.htm 6 74640 2 4
+/past_summits/ws_03.htm 5 66045 3 1
+/past_summits/ws_02.htm 4 48592 2 2
+/past_summits/ws_04.htm 4 48044 1 1
+// 3 34566 3 3
+/charters/child_chart.htm 1 11740 1 1
+END_SIDER

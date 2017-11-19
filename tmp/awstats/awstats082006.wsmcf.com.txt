@@ -1,0 +1,289 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2006-08 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2521                
+POS_VISITOR 6915                
+POS_DAY 7522                
+POS_DOMAIN 3058                
+POS_LOGIN 3346                
+POS_ROBOT 3501                
+POS_WORMS 3633                
+POS_EMAILSENDER 3764                
+POS_EMAILRECEIVER 3907                
+POS_SESSION 7784                
+POS_SIDER 7940                
+POS_FILETYPES 4042                
+POS_OS 4162                
+POS_BROWSER 4237                
+POS_SCREENSIZE 4356                
+POS_UNKNOWNREFERER 4430                
+POS_UNKNOWNREFERERBROWSER 4517                
+POS_ORIGIN 4599                
+POS_SEREFERRALS 4732                
+POS_PAGEREFS 4876                
+POS_SEARCHWORDS 5452                
+POS_KEYWORDS 5604                
+POS_MISC 2185                
+POS_ERRORS 5663                
+POS_CLUSTER 3202                
+POS_SIDER_404 5763                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20060901185510 1 0 28437825386
+FirstTime 0
+LastTime 20060826060902
+LastUpdate 20060902014958 1 0 0 0 0
+TotalVisits 7                   
+TotalUnique 7                   
+MonthHostsKnown 7                   
+MonthHostsUnknown 6                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 2 36 60378 0 1 514
+3 5 5 87105 1 1 514
+4 1 1 11522 0 0 0
+5 0 0 0 0 0 0
+6 13 14 180385 1 1 514
+7 0 0 0 0 0 0
+8 0 0 0 4 4 24048
+9 0 0 0 0 0 0
+10 0 1 43 0 0 0
+11 0 0 0 2 2 12024
+12 0 0 0 2 2 12024
+13 0 1 43 0 0 0
+14 0 1 43 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 7 111 371418 1 24 12336
+18 0 0 0 0 0 0
+19 0 1 43 0 0 0
+20 0 0 0 0 0 0
+21 0 1 43 0 0 0
+22 1 1 11522 0 0 0
+23 2 67 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 19 22 279098
+gb 8 112 382940
+au 4 103 60378
+de 0 1 43
+jp 0 1 43
+eu 0 1 43
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 7 69132 0 0
+jpg 18 108847 0 0
+htm 24 350240 0 0
+gif 191 194326 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 4
+winxp 232
+winnt 1
+win2000 1
+linux 6
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 5
+msie6.0 121
+firefox1.0.7 5
+firefox1.5.0.6 112
+firefox1.0 1
+msie5.5 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 5 5
+From1 1 1
+From2 0 0
+From3 1 7
+From4 24 227
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://by117w.bay117.mail.live.com/mail/ApplicationMain_11.07.0000.0072.aspx 1 1
+http://www.coffee-maker.info/d_115_053_0846_Espressotasse_Keith_Haring_Design__Man_red_790.htm 0 1
+http://monacogoldcasino.serversmonitor.com/index1025.htm 0 1
+http://zstyle.your2ch.net 0 1
+http://maracibodenoche.com 0 1
+http://ads.centralmedia.ws/creatives/Cydoor/pops.html 0 1
+http://ba8wer25vyn248vm98azrv9nc9wer9o2qrncalwrvnlwaoruevno.com 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 4 46088
+404 31 15886
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 12
+/f 1 -
+/past_summits/past_frame.htm 1 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c5_f2.gif 3 http://www.wsmcf.com/about/about.htm
+/robots.txt 5 http://www.whois.sc/
+/about/front_slices/gifs/index_r2_c2_f2.gif 3 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c4_f2.gif 3 http://www.wsmcf.com/about/about.htm
+/research/front_slices/gifs/spacer.gif 1 http://www.wsmcf.com/research/research.htm
+/images/bg_contact1.jpg 2 http://www.wsmcf.com/contact/contact.htm
+/about/front_slices/gifs/index_r2_c6_f2.gif 3 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c9_f2.gif 3 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c3_f2.gif 3 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c7_f2.gif 3 http://www.wsmcf.com/about/about.htm
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 13
+63.100.163.57 13 13 180342 20060826060902
+cache1.eu.ogilvy.com 7 111 371418 20060822173013
+208.17.184.49 5 5 87105 20060816034812
+203.110.158.162 2 67 0 20060817230456
+210-15-225-58-static.vic.netspace.net.au 2 36 60378 20060809020848
+www4.totaldomaindata.com 1 1 11522 20060806221139
+dex-252-16.dxi.net 1 1 11522 20060815042356
+213.252.152.26 0 1 43 
+61.206.127.248.user.rf.il24.net 0 1 43 
+astrasbourg-156-1-24-99.w81-51.abo.wanadoo.fr 0 1 43 
+201.209.45.189 0 1 43 
+user-0cevfae.cable.mindspring.com 0 1 43 
+221.148.61.218 0 1 43 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20060804 0 1 43 0
+20060806 1 2 11565 1
+20060807 0 1 43 0
+20060809 2 36 60378 1
+20060815 1 1 11522 1
+20060816 5 7 87191 1
+20060817 2 67 0 1
+20060822 7 111 371418 1
+20060826 13 13 180342 1
+20060829 0 1 43 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 7 69132 6 2
+/foundation/foundation.htm 4 66894 1 1
+/about/about.htm 3 50400 0 1
+/contact/contact.htm 3 25587 0 1
+/past_summits/past.htm 3 75726 0 0
+/next_summit/next.htm 2 22768 0 0
+/charters/charter.htm 2 22486 0 1
+/research/research.htm 2 26110 0 0
+/past_summits/ws_03.htm 1 13209 0 0
+/past_summits/ws_02.htm 1 12148 0 1
+/past_summits/ws_01.htm 1 12440 0 0
+/past_summits/ws_04.htm 1 12011 0 0
+/tender/tender.htm 1 10461 0 0
+END_SIDER

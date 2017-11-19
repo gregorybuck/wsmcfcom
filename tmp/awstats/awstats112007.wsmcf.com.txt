@@ -1,0 +1,573 @@
+AWSTATS DATA FILE 6.6 (build 1.887)
+# If you remove this file, all statistics for date 200711 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2526                
+POS_VISITOR 10317               
+POS_DAY 15344               
+POS_DOMAIN 3320                
+POS_LOGIN 3795                
+POS_ROBOT 3950                
+POS_WORMS 4402                
+POS_EMAILSENDER 4533                
+POS_EMAILRECEIVER 4676                
+POS_SESSION 16055               
+POS_SIDER 16243               
+POS_FILETYPES 4811                
+POS_OS 4977                
+POS_BROWSER 5107                
+POS_SCREENSIZE 5315                
+POS_UNKNOWNREFERER 5389                
+POS_UNKNOWNREFERERBROWSER 5748                
+POS_ORIGIN 6012                
+POS_SEREFERRALS 6151                
+POS_PAGEREFS 6352                
+POS_SEARCHWORDS 6739                
+POS_KEYWORDS 8082                
+POS_MISC 2190                
+POS_ERRORS 9027                
+POS_CLUSTER 3651                
+POS_SIDER_404 9143                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20071201004131 11 1524 40256751463
+FirstTime 0
+LastTime 20071130104045
+LastUpdate 20071201091211 11 0 10 0 0
+TotalVisits 92                  
+TotalUnique 86                  
+MonthHostsKnown 81                  
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 8 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 194 978591 38 50 13293263
+1 2 2 23962 32 32 151743
+2 4 60 130673 21 22 3336950
+3 2 2 23044 10 11 322583
+4 13 174 693032 20 40 534745
+5 22 126 320938 18 20 3326319
+6 4 35 263062 28 28 378061
+7 13 13 184012 15 16 62819
+8 4 4 51016 17 17 111751
+9 3 56 248995 15 16 119274
+10 2 2 23533 22 24 211622
+11 9 170 853022 35 35 371307
+12 28 308 1111251 23 24 341325
+13 8 168 628855 7 7 32009
+14 15 71 439447 38 38 7568583
+15 14 326 963330 30 44 243855
+16 4 4 888371 15 15 88429
+17 4 70 484719 13 13 65645
+18 13 124 614701 8 39 3327443
+19 6 138 731414 14 22 64627
+20 19 119 5331152 28 40 361553
+21 19 374 912435 36 49 716917
+22 0 0 0 15 18 40042
+23 2 2 295637 30 43 3606045
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+us 121 1146 9845108
+ca 31 248 769457
+ip 17 138 1006706
+gr 11 167 639376
+tz 8 98 426181
+au 7 130 523035
+se 6 249 442858
+yu 5 50 277493
+gb 4 88 738259
+za 3 42 236987
+es 2 2 292283
+dk 2 54 98571
+eu 2 64 417006
+tr 1 1 47355
+jp 1 1 17511
+kr 1 32 208503
+de 1 32 208503
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 72 20184339 20071130032159 0
+slurp 40 265455 20071130230709 0
+msnbot 39 14016561 20071130232653 0
+spider 33 488940 20071128071412 0
+msnbot\-media 29 389558 20071130101154 0
+jeeves 28 155802 20071129212334 0
+robot 13 199701 20071124162247 0
+crawl 10 145726 20071129072105 0
+\wbot[\/\-] 3 23044 20071120130318 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+png 78 2463770 0 0
+html 57 587622 0 0
+jpg 140 1551910 0 0
+pdf 24 7423589 0 0
+htm 142 2325630 0 0
+gif 2101 1842671 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 160
+winlong 592
+winxp 1471
+win2003 57
+win2000 220
+Unknown 29
+linux 3
+linuxfedora 10
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+msie6.0 937
+firefox1.0.7 10
+firefox1.0.1 1
+konqueror 3
+mozilla 1
+firefox2.0.0.8 201
+firefox2.0.0.9 206
+msie7.0 888
+firefox2.0.0.10 142
+Unknown 21
+safari 132
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+- 20071105170734
+voyager-hc/1.0 20071127101227
+Mozilla/4.0_(compatible;_MSIE_6.0) 20071117174540
+panscient.com 20071115075910
+Java/1.6.0_03 20071120081115
+Mozilla/3.0_(compatible) 20071101130649
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20071126084832
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+- 20071105170734
+voyager-hc/1.0 20071127101227
+panscient.com 20071115075910
+Java/1.6.0_03 20071120081115
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20071126084832
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 92 252
+From1 0 0
+From2 42 44
+From3 6 6
+From4 83 2240
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 26 26
+live 8 8
+google_image 5 7
+ask 1 1
+yahoo 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://localhost/ws2010/lankar.php 2 2
+http://www.stockleaf.com 1 1
+http://en.wikipedia.org/wiki/Patricia_Edgar 1 1
+http://www.soynino.org.ve/requetesabio07.htm 1 1
+http://www.multirio.rj.gov.br/portal/riomidia/rm_materia_conteudo.asp 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 35
+world 2
+summit 2
+dr+adrian+mills 1
+maie+ayob+von+kohl 1
+research 1
+children 1
+third+world+summit+media+children+greece 1
+www.wsmcf.com 1
+world+council+for+gifted+youth+summit+toronto 1
+14th+isfahan+theater+festival+greek+participation 1
+consc%c4%b1ous+vomen+and+happy+kids+final+narrative+report 1
+tender+document 1
+virtual+kids+melbourne+age+newspaper 1
+world+summit+children+media+taskforce 1
+children+foundation+in+finland 1
+lundgren+foundation 1
+about 1
+third+world+summit+media+chhildren+greece 1
+world+summit+on+media+for+children+foundation 1
+the+3rd+world+summit+on+media+for+children 1
+irfcam 1
+ellen+wartella+negotiations+chancellor 1
+kidsreen 1
+forums+on+children+in+the+media 1
+media+literacy+programmes+ministry+of+education+indian 1
+future+for+children%e2%80%99s+television+in+the+uk+janie+grace 1
+eugenia+liroudia 1
+third+world+children+education+report 1
+international+foundations+for+children+and+youth+in+danmark 1
+3rd-ws.org 1
+greece+third+world+%3f 1
+world-summit+media-for+children+foundation 1
+world+summit+on+children+and+television 1
+filetype+pdf+summit+research+report+kiosk 1
+what+was+the+industy%e2%80%99s+method+for+determining+that+there+was+an+inequality%3f 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 90
+world 11
+children 11
+summit 10
+media 7
+for 6
+the 4
+third 4
+on 4
+in 4
+foundation 4
+greece 3
+report 3
+and 3
+youth 2
+research 2
+television 2
+education 2
+kids 2
+was 2
+gifted 1
+programmes 1
+inequality%3f 1
+that 1
+ellen 1
+narrative 1
+theater 1
+tender 1
+what 1
+literacy 1
+negotiations 1
+greek 1
+final 1
+mills 1
+kiosk 1
+kidsreen 1
+of 1
+indian 1
+www.wsmcf.com 1
+newspaper 1
+method 1
+melbourne 1
+dr 1
+grace 1
+virtual 1
+forums 1
+taskforce 1
+consc%c4%b1ous 1
+ministry 1
+participation 1
+an 1
+foundations 1
+uk 1
+toronto 1
+document 1
+chhildren 1
+3rd 1
+industy%e2%80%99s 1
+world-summit 1
+future 1
+eugenia 1
+about 1
+vomen 1
+isfahan 1
+pdf 1
+14th 1
+irfcam 1
+ayob 1
+finland 1
+wartella 1
+filetype 1
+age 1
+council 1
+kohl 1
+lundgren 1
+liroudia 1
+festival 1
+danmark 1
+children%e2%80%99s 1
+3rd-ws.org 1
+von 1
+there 1
+maie 1
+chancellor 1
+happy 1
+adrian 1
+determining 1
+media-for 1
+%3f 1
+international 1
+janie 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 110 2663818
+406 2 518
+404 284 143448
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 13
+/past_summits/past_frame.htm 10 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c5_f2.gif 11 http://www.wsmcf.com/about/about.htm
+/robots.txt 175 -
+/wolserver.rar 1 -
+/mirserver.rar 1 -
+/about/front_slices/gifs/index_r2_c2_f2.gif 12 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c4_f2.gif 12 http://www.wsmcf.com/about/about.htm
+/research/front_slices/gifs/spacer.gif 9 http://www.wsmcf.com/research/research.htm
+/images/bg_contact1.jpg 8 http://www.wsmcf.com/contact/contact.htm
+/about/front_slices/gifs/index_r2_c6_f2.gif 11 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c9_f2.gif 11 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c3_f2.gif 12 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c7_f2.gif 11 http://www.wsmcf.com/about/about.htm
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 97
+bas4-montreal02-1096722315.dsl.bell.ca 17 100 248473 20071128055330
+c925cf46.virtua.com.br 16 371 785768 20071125211449
+panscient_data_services.demarc.cogentco.com 13 13 184012 20071115075910
+38.105.83.12 13 13 184012 20071103140113
+bas4-montreal02-1096720956.dsl.bell.ca 12 88 186925 20071116125437
+155.207.251.14 11 167 639376 20071108002518
+69.36.158.17 10 10 146644 20071110201259
+49-173-44-196.udsm.ac.tz 8 98 426181 20071117122428
+535402ff.cable.casema.nl 8 108 5172986 20071128203858
+cpe-58-161-40-45.nsw.bigpond.net.au 7 137 417002 20071123043349
+pool-72-69-73-170.chi01.dsl-w.verizon.net 7 80 413618 20071112185659
+18925012239.user.veloxzone.com.br 5 101 428110 20071102154748
+80.80.170.114 5 50 277493 20071117181112
+193.235.28.11 4 149 283812 20071126124724
+124.115.0.100 4 4 46088 20071117174540
+host86-130-216-115.range86-130.btcentralplus.com 3 73 302886 20071101193836
+flux.aibd.org.my 3 59 119151 20071127020729
+static-208-80-193-41.as13448.com 2 2 23044 20071111230923
+inetgw-65-pri.nhs.uk 2 2 292283 20071101120611
+ctb-cache8-vif1.saix.net 2 8 48467 20071102154407
+2.44.111.218.cbj02-home.tm.net.my 2 48 94018 20071126132734
+sas-out.sas.dk 2 54 98571 20071102134725
+ool-45779ae2.dyn.optonline.net 2 27 339215 20071103003829
+c-882e71d5.1010-1-64736c11.cust.bredbandsbolaget.se 2 100 159046 20071128152844
+124.115.0.163 2 2 23044 20071104190708
+ctb-cache7-vif0.saix.net 0 1 379 
+crawl2.cosmixcorp.com 1 1 11522 20071127101227
+bl2sch1082007.phx.gbl 1 1 13055 20071104040108
+81-178-99-159.dsl.pipex.com 1 32 208503 20071104115433
+bl2sch1081917.phx.gbl 1 1 7738 20071114130420
+ctb-cache4-vif1.saix.net 0 2 810 
+prx5.cn1.myschools.net 1 1 284115 20071104232245
+48.227.211.41.client48.directonpc.com 0 1 40882 
+bl2sch1082101.phx.gbl 1 1 12148 20071102055643
+62-64-211-169.dynamic.dial.as9105.com 1 32 208503 20071119170234
+rrba-ip-pcache-6-vif0.saix.net 0 3 735 
+static-208-80-193-3.as13448.com 1 1 11522 20071103063918
+conferences36.housing.ubc.ca 1 32 208503 20071109191403
+livebot-65-55-165-117.search.live.com 1 1 16800 20071120180959
+rba-cache1-vif0.saix.net 0 3 40981 
+ec2-67-202-15-247.z-1.compute-1.amazonaws.com 1 1 11522 20071113120424
+kappa.wwwcache.cam.ac.uk 1 32 208503 20071104131634
+ftp.gurunet.com 1 1 10461 20071120081115
+static-208-80-193-37.as13448.com 1 1 11522 20071106202905
+rrba-ip-pcache-5-vif1.saix.net 0 3 639 
+rrba-ip-pcache5-vif0.telkom-ipnet.co.za 0 6 33939 
+tide502.microsoft.com 0 1 34406 
+mail.londongt.org 1 32 208503 20071115142841
+pool-72-67-7-122.lsanca.fios.verizon.net 1 32 208503 20071114133223
+rrba-ip-pcache6-vif1.telkom-ipnet.co.za 0 1 127 
+212.219.8.254 1 23 28970 20071106092808
+static-208-80-193-45.as13448.com 1 1 11522 20071121030506
+static-208-80-193-42.as13448.com 1 1 11522 20071123115227
+customer.vpls.net 1 1 29677 20071126121439
+sbider4.sitebuildit.com 1 1 11522 20071115085446
+pool-71-243-70-44.bos.east.verizon.net 1 1 31515 20071129060236
+64.210.196.197 1 50 79523 20071105115941
+sbider8.sitebuildit.com 1 1 11522 20071121034708
+user-387gqoa.cable.mindspring.com 1 26 46932 20071117141009
+bl2sch1081813.phx.gbl 1 1 25179 20071110041304
+33-20.3-85.cust.bluewin.ch 1 32 208503 20071126193952
+static-208-80-193-34.as13448.com 1 1 11522 20071118180050
+203.14.53.15 1 22 25751 20071128051953
+20150082240.user.veloxzone.com.br 1 1 13209 20071102120735
+abqc182.neoplus.adsl.tpnet.pl 1 1 11522 20071101130649
+orion.ashantiplc.com 1 1 0 20071125041640
+athedsl-110501.home.otenet.gr 1 1 292283 20071112165350
+dsl-124-150-90-3.vic.westnet.com.au 1 1 17771 20071129040434
+sbider2.sitebuildit.com 1 1 11522 20071109115103
+sbider6.sitebuildit.com 1 1 11522 20071103052224
+binkley.iitalked.info 1 1 135683 20071121113728
+antispam.brunico.com 1 28 125556 20071107180527
+bl2sch1081908.phx.gbl 1 1 12440 20071103012035
+ctb-cache7-vif1.saix.net 0 4 35451 
+ip-64-15-152-109.static.privatedns.com 1 1 11522 20071118163922
+rba-cache2-vif0.saix.net 1 5 50910 20071102154316
+88.227.39.40 1 1 15543 20071120150641
+cronos.masterbiz.com.br 1 1 11522 20071130055149
+bl2sch1081919.phx.gbl 1 1 8529 20071102211022
+193.255.97.188 1 1 47355 20071106110912
+134.163.255.11 1 1 106616 20071113212155
+ip-203-192-181-83.asianetcom.net 1 1 17511 20071123080419
+211.51.233.129 1 32 208503 20071120045734
+sbider3.sitebuildit.com 1 1 11522 20071126084832
+static-208-80-193-49.as13448.com 1 1 11522 20071128091504
+talltales.plus.com 1 32 208503 20071101090042
+210.pool85-49-214.dynamic.orange.es 1 50 79523 20071107154821
+20158192081.user.veloxzone.com.br 1 1 12011 20071130104045
+p5087c987.dip.t-dialin.net 1 32 208503 20071116062150
+static-208-80-193-33.as13448.com 1 1 11522 20071115210958
+124.115.0.28 1 1 11522 20071116040336
+ph.oocandida.com 1 1 292283 20071127164237
+host-199-001-130-013.dhcp.fewpb.net 1 31 32599 20071128150132
+208.49.241.227 1 50 79523 20071123120016
+ctb-cache5-vif1.saix.net 0 6 24549 
+c-76-100-53-228.hsd1.va.comcast.net 1 1 106151 20071128124351
+proxyaext.bournemouth.ac.uk 1 1 292283 20071119160427
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20071101 7 108 815194 4
+20071102 14 201 809076 8
+20071103 18 43 558711 5
+20071104 5 67 725698 5
+20071105 1 51 113929 1
+20071106 3 25 87847 3
+20071107 2 78 205079 2
+20071108 12 168 650898 2
+20071109 3 34 231547 3
+20071110 11 11 171823 2
+20071111 2 2 23044 2
+20071112 8 81 705901 2
+20071113 2 2 118138 2
+20071114 3 34 227763 3
+20071115 16 47 415559 4
+20071116 14 121 406950 3
+20071117 15 175 762128 4
+20071118 2 2 23044 2
+20071119 2 33 500786 2
+20071120 4 35 251307 4
+20071121 3 3 158727 3
+20071123 10 190 566440 4
+20071125 17 372 785768 2
+20071126 10 281 707055 6
+20071127 5 61 422956 3
+20071128 30 313 5677005 7
+20071129 2 2 49286 2
+20071130 2 2 23533 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 2
+30s-2mn 3
+2mn-5mn 7
+0s-30s 78
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/ 57 587622 46 32
+/foundation/foundation.htm 32 890310 16 18
+/past_summits/pdf/finrep3.pdf 18 2533280 14 15
+/past_summits/past.htm 15 327327 1 3
+/about/about.htm 14 231120 1 2
+/tender/tender.htm 13 135993 2 4
+/contact/contact.htm 12 102348 2 5
+/next_summit/next.htm 12 92856 1 2
+/research/research.htm 12 156660 3 3
+/charters/charter.htm 8 89944 0 0
+/past_summits/ws_03.htm 7 92463 3 3
+/past_summits/ws_04.htm 7 84077 1 1
+/past_summits/ws_01.htm 5 62200 1 2
+/past_summits/ws_02.htm 4 48592 1 1
+/tender/WStender.pdf 3 51798 0 1
+/past_summits/pdf/finrep1.pdf 2 4697623 0 0
+/past_summits/pdf/finrep2.pdf 1 140888 0 0
+/charters/child_chart.htm 1 11740 0 0
+END_SIDER

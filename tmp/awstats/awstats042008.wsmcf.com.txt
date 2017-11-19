@@ -1,0 +1,977 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200804 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2531                
+POS_VISITOR 14876               
+POS_DAY 25473               
+POS_DOMAIN 3396                
+POS_LOGIN 4074                
+POS_ROBOT 4229                
+POS_WORMS 4722                
+POS_EMAILSENDER 4853                
+POS_EMAILRECEIVER 4996                
+POS_SESSION 26291               
+POS_SIDER 26499               
+POS_FILETYPES 5131                
+POS_OS 5301                
+POS_BROWSER 5462                
+POS_SCREENSIZE 5771                
+POS_UNKNOWNREFERER 5845                
+POS_UNKNOWNREFERERBROWSER 6494                
+POS_ORIGIN 6873                
+POS_SEREFERRALS 7018                
+POS_PAGEREFS 7214                
+POS_SEARCHWORDS 8496                
+POS_KEYWORDS 10972               
+POS_MISC 2194                
+POS_ERRORS 12085               
+POS_CLUSTER 3930                
+POS_SIDER_404 12202               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080501015800 328 79417 42225361982
+FirstTime 0
+LastTime 20080430174344
+LastUpdate 20080501092654 328 0 327 0 0
+TotalVisits 210                 
+TotalUnique 184                 
+MonthHostsKnown 153                 
+MonthHostsUnknown 51                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 51 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 36 172 1185086 83 85 486514
+1 19 24 386619 71 75 349240
+2 1 1 29677 77 83 5245234
+3 13 203 747336 64 90 232356
+4 20 270 1281899 83 96 9977869
+5 198 299 3335259 68 92 370198
+6 3 3 311543 59 63 279744
+7 7 104 839553 110 117 288740
+8 23 423 1010455 43 62 432360
+9 33 330 390596 62 92 6074010
+10 66 651 10188907 84 107 10369448
+11 45 474 2089652 58 93 7875978
+12 24 504 1448852 64 68 4851315
+13 16 312 1132916 87 106 11164239
+14 43 524 2764604 56 91 8815320
+15 30 334 1549983 67 103 5550544
+16 20 260 1170395 38 85 8032845
+17 46 639 2567624 65 82 889873
+18 25 362 2127227 88 102 233957
+19 23 336 2323993 98 123 7932461
+20 63 502 1908657 42 58 7053724
+21 16 47 545467 53 56 89130
+22 22 307 1363073 71 77 5040938
+23 17 75 599388 47 60 187381
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 30
+us 552 2970 17114836
+se 60 1083 1420838
+au 46 785 10441144
+eu 28 439 2564625
+ip 23 331 1244291
+il 14 96 375217
+no 12 145 538365
+fr 9 142 276373
+gb 9 270 1515067
+sg 9 110 723961
+kr 5 5 130230
+ca 5 103 559298
+jp 4 88 47131
+et 4 89 229642
+it 4 63 523189
+br 3 34 848984
+pt 2 67 283812
+np 2 2 161202
+eg 2 2 584566
+my 2 37 231113
+am 2 37 232725
+za 2 36 227551
+de 2 33 216241
+be 2 54 98571
+cn 1 1 32691
+es 1 50 79523
+ch 1 32 208503
+dk 1 50 79523
+hu 1 1 17266
+nl 1 1 292283
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+slurp 615 66098831 20080430232024 0
+msnbot 120 14185824 20080430195253 0
+googlebot 95 7408156 20080430181522 0
+robot 95 570247 20080429064201 0
+crawl 24 218197 20080426021225 0
+jeeves 16 213939 20080430211654 0
+msnbot\-media 14 195752 20080426170242 0
+\wbot[\/\-] 13 184012 20080429011037 0
+spider 5 64421 20080424215759 0
+ia_archiver 1 29677 20080406022820 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+png 206 7043976 0 0
+html 104 1071546 0 0
+pdf 60 12799765 0 0
+jpg 461 4800313 0 0
+htm 645 9741917 0 0
+gif 5680 5841244 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winlong 955
+winxp 5833
+win2000 12
+win98 48
+linuxfedora 10
+linux 4
+macosx 163
+winme 33
+bsdfreebsd 1
+win2003 29
+Unknown 68
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+msie6.0 3238
+msie5.01 9
+firefox1.5.0.12 66
+firefox2.0.0.12 96
+firefox1.5.0.1 1
+firefox2.0.0.13 620
+firefox2.0.0.14 544
+firefox1.0.7 10
+konqueror 3
+mozilla 13
+firefox1.0 37
+firefox2.0.0.9 93
+firefox2.0.0.3 1
+msie7.0 2289
+Unknown 58
+safari 73
+firefox1.5.0.7 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20080430010010
+Mozilla/4.0_(compatible;_DAUMOA-web;__http://ws.daum.net/aboutkr.html) 20080402162114
+Python-urllib/2.1 20080416002653
+PuxaRapido_v1.0 20080428235324
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20080419094836
+panscient.com 20080410112510
+- 20080427014438
+Mozilla/5.0_(compatible;_Firefox_mutant;__http://ws.daum.net/aboutkr.html)_Daumoa/2.0 20080417122040
+boitho.com-dc/0.85_(_http://www.boitho.com/dcbot.html_) 20080418002723
+shelob_v1.0 20080404012843
+PS 20080407013715
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Python-urllib/2.1 20080416002653
+PuxaRapido_v1.0 20080428235324
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20080419094836
+panscient.com 20080410112510
+- 20080427014438
+boitho.com-dc/0.85_(_http://www.boitho.com/dcbot.html_) 20080418002723
+PS 20080407013715
+shelob_v1.0 20080404012843
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 229 238
+From1 0 0
+From2 100 131
+From3 50 68
+From4 430 6719
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 79 79
+live 17 17
+google_cache 0 31
+yahoo 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 25
+http://pacificair.com 9 9
+http://www.wskarlstad2010.se/links.php 9 9
+http://www.demos.co.uk 4 4
+http://www.BigFinder.de/index.php 4 4
+http://www.keywordspy.com/keyword-research/wsmcf.com 3 3
+http://www.wskarlstad2010.se/summit.php 2 2
+http://www.comminit.com/en/node/266114/37 2 2
+http://www.demos.co.uk/projects/childrenofeuropa/bookmarks/11488 1 1
+http://www.student16.drupalit.com. 1 1
+http://www.wskarlstad2010.se/index.php 1 1
+http://demos.co.uk/projects/childrenofeuropa/bookmarks/11488 1 1
+http://www.BigFinder.de 1 1
+http://www.wskarlstad2010.se/news.php 1 1
+http://alex-in-medialand.11vm-serv.net/link.xml 1 1
+http://en.wikipedia.org/wiki/Patricia_Edgar 1 1
+http://www.comminit.com/es/node/266116/37 1 1
+http://www.wskarlstad2010.se 1 1
+http://andanzaseneuropa.blogspot.com/2008/01/bienvenida-al-ao-2008.html 1 1
+http://pipl.com/directory/people/Javad/Mottaghi 1 1
+http://pipl.com/search/ 1 1
+http://www.infokids.am/main/am/3/ 1 1
+http://verden.abcsok.no/index.html 1 1
+http://translate.google.com/translate 1 1
+http://www.multirio.rj.gov.br/portal/riomidia/rm_materia_conteudo.asp 1 1
+http://www.munax.com/referer.htm 0 18
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 76
+summit 6
+world+summit+on+media+for+children 6
+tender+document 5
+world 4
+children+s+foundation+media 2
+media 2
+children+logotype 2
+www.wsmfc.com 2
+mr-8brasil 2
+media+and+children+world+summit 2
+world+summit+for+children 1
+children 1
+maria+mitsou 1
+world+summit+media+children 1
+3rd+world+summit+for+children+%ce%b8%ce%b5%cf%83%cf%83%ce%b1%ce%bb%ce%bf%ce%bd%ce%b9%ce%ba%ce%b7 1
+tender 1
+the+world+summit+on+media+for+children+and+youth+karlstad+sweden+2010 1
+world+summit+on+media+for+children+and+adolescents 1
+world+summit+on+media+for+children+foundation 1
+the+first+world+summit+on+television+for+children 1
+world+summit+media+for+children 1
+research+forums+media 1
+janie+grace+consultant 1
+world+smmit+for+children+held 1
+foundation+degrees+university+of+teesside+adrian 1
+audiovisuel+storytelling+in+an+exhibition+context 1
+summit+tender 1
+summit+2+pag+36 1
+world+summit+1995 1
+world+summit+on+media 1
+world+summit+on+media+for+children+2001 1
+adrian+mills+cbc 1
+world+summit+children+issues+media 1
+traing+childerns+media+programmes 1
+1st+world+summit+on+television+and+children 1
+world+summit+foundation+children+s+television 1
+world+summit+on+media+for+children+1995 1
+world+media+summit+children 1
+children+activity+report 1
+george+mcbean+unicef+nepal 1
+the+exam+australian+children+s+television+foundation 1
+television+child+psychologists 1
+about 1
+digital+media+for+kids 1
+head+of+children+s+television+bbc 1
+world+summit+children 1
+adrian+television+childrens 1
+6th+world+summit+on+children+and+media 1
+audiovisual+eureka 1
+the+world+summit+on+media+for+children+foundation 1
+tender+children 1
+children+s+books+international+summit+uk 1
+brazil+2004+summit 1
+jpmorgan+chase+kids+digital+movement+sound+project 1
+eu+foundations+media 1
+research 1
+experience+in+media+communication 1
+world+summit+organisation+london 1
+foundation+not+for+profit+telecom 1
+tender+doc 1
+summit+holding+company+llc 1
+summit+holding+company 1
+68usa 1
+children+and+the+media 1
+adrian+mills 1
+dr+javad+mottaghi 1
+not+for+profit+foundation+children 1
+children+and+media+research 1
+dr+javad+mottaghi+email 1
+summit+on+media+for+children 1
+world+summit+on+children+and+television 1
+world+child+future+foundation 1
+adrian+mills+gifted+and+talented 1
+adrian+mills+kids+television 1
+summit+media+director 1
+world+summit+on+children+and+media 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 107
+summit 44
+children 42
+world 36
+media 34
+for 21
+on 19
+and 11
+foundation 10
+tender 9
+television 9
+s 6
+adrian 6
+the 5
+document 5
+mills 4
+research 3
+kids 3
+of 2
+not 2
+in 2
+1995 2
+dr 2
+child 2
+javad 2
+digital 2
+gifted 1
+programmes 1
+held 1
+australian 1
+experience 1
+degrees 1
+email 1
+london 1
+telecom 1
+sound 1
+traing 1
+maria 1
+2001 1
+pag 1
+smmit 1
+audiovisuel 1
+exhibition 1
+childrens 1
+youth 1
+audiovisual 1
+brazil 1
+books 1
+%ce%b8%ce%b5%cf%83%cf%83%ce%b1%ce%bb%ce%bf%ce%bd%ce%b9%ce%ba%ce%b7 1
+psychologists 1
+eu 1
+childerns 1
+movement 1
+cbc 1
+grace 1
+forums 1
+unicef 1
+foundations 1
+an 1
+uk 1
+eureka 1
+mcbean 1
+mitsou 1
+bbc 1
+chase 1
+2 1
+activity 1
+3rd 1
+adolescents 1
+talented 1
+storytelling 1
+future 1
+consultant 1
+llc 1
+doc 1
+about 1
+head 1
+organisation 1
+2010 1
+jpmorgan 1
+report 1
+mr-8brasil 2
+sweden 1
+issues 1
+2004 1
+project 1
+holding 2
+karlstad 1
+director 1
+mottaghi 2
+exam 1
+context 1
+68usa 1
+company 2
+university 1
+first 1
+36 1
+profit 2
+nepal 1
+1st 1
+www.wsmfc.com 2
+teesside 1
+international 1
+logotype 2
+communication 1
+6th 1
+janie 1
+george 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 203 12216172
+406 2 560
+404 863 437630
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 22
+/past_summits/past_frame.htm 24 -
+/_vti_bin/owssvr.dll 1 -
+/robots.txt 521 -
+/favicon.gif 1 -
+/research/../research/../research/../about/../past_summits/past_frame.htm 1 http://www.wsmcf.com/research/../research/../research/../about/../past_summits/past_frame.htm
+/about/front_slices/gifs/index_r2_c4_f2.gif 36 http://www.wsmcf.com/about/about.htm
+/images/bg_contact1.jpg 17 http://www.wsmcf.com/contact/contact.htm
+/MSOffice/cltreq.asp 1 -
+/about/front_slices/gifs/index_r2_c6_f2.gif 36 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c3_f2.gif 37 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c7_f2.gif 36 http://www.wsmcf.com/about/about.htm
+/research/../research/../research/../research/../research/../research/../research/../about/../past_summits/past_frame.htm 1 http://www.wsmcf.com/research/../research/../research/../research/../research/../research/../research/../about/../past_summits/past_frame.htm
+/research/../about/../past_summits/past_frame.htm 1 http://www.wsmcf.com/research/../about/../past_summits/past_frame.htm
+/about/front_slices/gifs/index_r2_c5_f2.gif 36 http://www.wsmcf.com/about/about.htm
+/research/../research/../about/../past_summits/past_frame.htm 1 http://www.wsmcf.com/research/../research/../about/../past_summits/past_frame.htm
+/about/front_slices/gifs/index_r2_c2_f2.gif 37 http://www.wsmcf.com/about/about.htm
+/about/../past_summits/past_frame.htm 1 http://www.wsmcf.com/about/../past_summits/past_frame.htm
+/research/../research/../research/../research/../research/../about/../past_summits/past_frame.htm 1 http://www.wsmcf.com/research/../research/../research/../research/../research/../about/../past_summits/past_frame.htm
+/research/../research/../research/../research/../about/../past_summits/past_frame.htm 1 http://www.wsmcf.com/research/../research/../research/../research/../about/../past_summits/past_frame.htm
+/research/front_slices/gifs/spacer.gif 36 http://www.wsmcf.com/research/research.htm
+/about/front_slices/gifs/index_r2_c9_f2.gif 36 http://www.wsmcf.com/about/about.htm
+/research/../research/../research/../research/../research/../research/../research/../research/../about/../past_summits/past_frame.htm 1 http://www.wsmcf.com/research/../research/../research/../research/../research/../research/../research/../research/../about/../past_summits/past_frame.htm
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 204
+60.190.240.73 191 191 2818583 20080426054953
+193.235.28.11 50 864 555072 20080429172413
+218-168-155-148.dynamic.hinet.net 28 541 9295454 20080413142826
+security-lab1.juniper.net 19 19 256898 20080404012843
+38.104.58.118 14 14 192541 20080410112510
+bmf34-1-88-172-136-86.fbx.proxad.net 13 13 184012 20080411201930
+38.100.41.113 13 13 184012 20080404102045
+220.4.103.87.rev.vodafone.pt 13 13 184012 20080420002931
+hsdiesel.locadados.com.br 11 11 158363 20080421204041
+www.schoolnet8.com 11 11 158655 20080403000803
+bzq-62-219-14-24.dcenter.bezeqint.net 11 11 158655 20080402174623
+58.29.238.252 11 11 158792 20080403101430
+ns1.orangeboxhost.com 11 11 158363 20080422204036
+ip-209-172-48-57.static.privatedns.com 11 11 158792 20080403090824
+3a.af.5546.static.theplanet.com 11 11 158363 20080422141531
+host81-158-125-208.range81-158.btcentralplus.com 10 118 540543 20080406204224
+69.36.158.19 10 10 146644 20080409155046
+mbl-65-143-26.dsl.net.pk 9 115 512759 20080430112906
+89.122.29.125 9 9 134204 20080427214357
+212-124-182-64.cust.propagation.net 9 9 134204 20080415141507
+57.74.135.42 9 142 276373 20080415201320
+nme-pow-pr2.tpgi.com.au 9 116 508768 20080417113319
+218-186-8-11.cache.maxonline.com.sg 9 110 723961 20080423044009
+mail.canal1tv.com 8 113 493130 20080409183144
+201-210-211-46.genericrev.cantv.net 8 111 725067 20080422194148
+sw2-beta-mail.dwelle.de 0 22 167694 
+49.168-240-81.adsl-dyn.isp.belgacom.be 1 1 51592 20080422103145
+louise.ist.psu.edu 1 1 292283 20080412065351
+reverse.keele.netcentral.co.uk 1 32 208503 20080421185329
+ua-83-226-192-199.cust.bredbandsbolaget.se 4 75 324645 20080418175514
+64.41.145.121 1 1 29677 20080416000550
+dhcp-220-111.cns.ohiou.edu 1 26 29196 20080418132718
+89.211.41.226 2 36 227551 20080420042558
+59-106-15-46.r-bl100.sakura.ne.jp 1 1 29677 20080418041714
+livebot-65-55-165-121.search.live.com 1 1 12148 20080408161407
+72.25.131.194 1 1 15633 20080407170434
+buvikbn-bcn03.idi.ntnu.no 1 1 13055 20080409015135
+ntn-144-42.inter.net.il 1 33 87880 20080401125759
+host-82-201-173-3.static.link.com.eg 2 36 229297 20080414131425
+h065.n068.nhk.or.jp 0 3 9383 
+82.193.105.44.ipnet.kiev.ua 1 50 79523 20080428163147
+milla2.milla.com.br 3 3 670158 20080428235324
+cfb6947c1.dhcp.bluecom.no 2 2 21704 20080413161300
+lab6.agecon.umn.edu 2 29 42468 20080417232058
+62.135.70.52 2 2 584566 20080402190236
+bv-500-16-ssg140-untrust.intelius.com 0 5 129797 
+nc7-rba-e0-2.cache.isnet.net 2 36 227551 20080409050649
+h248.n068.nhk.or.jp 0 5 9743 
+ppp83-237-230-194.pppoe.mtu-net.ru 2 80 79523 20080426201335
+dhcp-124-93.tulane.edu 3 59 613026 20080422002458
+user-5442d0ed.lns2-c8.dsl.pol.co.uk 1 32 208503 20080423230757
+cable-87-116-157-199.dynamic.sbb.rs 2 67 283812 20080406083822
+ce.knox.army.mil 1 23 28970 20080408193825
+82.99.30.11 0 1 3633 
+194.8.75.214 1 1 7738 20080429071615
+dhcp-221-207.cns.ohiou.edu 5 51 279972 20080418143743
+211.115.109.122 2 2 59354 20080417122040
+77-96-98-158.cable.ubr09.nmal.blueyonder.co.uk 8 103 305056 20080403110054
+cpc4-cmbg5-0-0-cust456.cmbg.cable.ntl.com 1 1 231328 20080425175241
+195.188.172.157 1 32 208503 20080404142940
+ec2-67-202-53-154.compute-1.amazonaws.com 1 1 11522 20080410192623
+host86-145-85-226.range86-145.btcentralplus.com 1 32 208503 20080429225113
+190-22.3-85.cust.bluewin.ch 8 8 116230 20080407013715
+h067.n068.nhk.or.jp 0 2 0 
+c925d326.virtua.com.br 2 49 143287 20080402171555
+host2.haynet.com 1 32 208503 20080428161404
+h249.n068.nhk.or.jp 0 8 382 
+ppp59-167-144-219.lns4.mel6.internode.on.net 5 120 247989 20080421043017
+ascreative.plus.com 1 32 208503 20080415173200
+201008123066.user.veloxzone.com.br 1 1 13209 20080417135406
+h066.n068.nhk.or.jp 2 12 8367 20080402115403
+79.129.167.224 1 32 208503 20080424123749
+livebot-65-55-165-40.search.live.com 1 1 7738 20080418061609
+bas1-ottawa23-1177564651.dsl.bell.ca 1 32 208503 20080411134215
+ti411310a080-3547.bb.online.no 3 47 239481 20080420185534
+h64-13-138-8.scoutjet.com 2 2 23044 20080408000706
+livebot-65-55-165-67.search.live.com 1 1 8529 20080408052814
+66-90-158-246.dyn.grandenetworks.net 7 109 466232 20080404035841
+ec2-67-202-20-116.compute-1.amazonaws.com 1 1 29677 20080407050157
+7.75.125.91.rb4.adsl.brightview.com 1 1 17266 20080402092548
+host81-138-7-162.in-addr.btopenworld.com 1 32 208503 20080414155221
+89-149-208-39.internetserviceteam.com 1 1 16800 20080401235236
+82.99.30.40 0 1 2193 
+61.51.229.239 1 1 32691 20080419093408
+213.219.168.18.adsl.dyn.edpnet.net 2 54 98571 20080417082141
+h251.n068.nhk.or.jp 1 12 13645 20080402094314
+host165.xicom58.juch-tech.com 1 1 29677 20080416171031
+123-51-5-160.static-dsl.qld.aussiewholesale.net 1 26 77072 20080424220338
+66.46.57.16 1 32 208503 20080421140932
+buvikbn-bcn00.idi.ntnu.no 1 1 7738 20080418002723
+host249-146-dynamic.15-87-r.retail.telecomitalia.it 1 1 101012 20080425120334
+82.99.30.29 0 1 3660 
+78-131-25-85.pool.hdsnet.hu 1 1 12440 20080419094836
+26-204-34-66.cust.propagation.net 3 3 34566 20080424210026
+82.99.30.8 0 8 37287 
+cl-blue-halls-rb.herts.ac.uk 1 32 208503 20080414224904
+50.static46.banetele.com 5 94 256387 20080428141344
+213.94.147.240 8 112 486983 20080421161013
+123.200.232.229 1 32 208503 20080419073219
+a82-95-36-172.adsl.xs4all.nl 3 93 396052 20080411100503
+a88-115-198-196.elisa-laajakaista.fi 2 67 283812 20080415193217
+2.225.80.194.in-addr.arpa 1 32 208503 20080414114043
+bl1sch2041410.phx.gbl 3 3 66378 20080421191357
+a212-113-171-67.netcabo.pt 2 67 283812 20080428172309
+207.74.115.22 1 1 29677 20080405044710
+64.13.160.11 4 4 38250 20080430010010
+livebot-65-55-165-114.search.live.com 1 1 12011 20080424232143
+210.19.66.3 2 37 231113 20080403124716
+livebot-65-55-165-112.search.live.com 1 1 25179 20080415013609
+proxy1.netsys.am 2 37 232725 20080411083805
+ip503ca930.speed.planet.nl 1 1 292283 20080407153627
+cpc1-leic12-0-0-cust389.lei3.cable.ntl.com 2 24 37037 20080408132832
+host81-141-209-100.wlms-broadband.com 1 1 292283 20080429205037
+78-61-159-33.static.zebra.lt 3 59 119151 20080425225043
+158.80.24.2 1 26 29111 20080430005639
+bzq-179-28-34.static.bezeqint.net 2 52 128682 20080401125746
+87-198-225-70.ptr.magnet.ie 2 58 100894 20080416191051
+dsl-189-143-47-204.prod-infinitum.com.mx 2 58 101885 20080428171511
+proxy1.eq.edu.au 1 1 153948 20080419074331
+217.117.171.181.dynadsl.ch.easynet.net 1 32 208503 20080422072211
+212.183.136.194 1 23 26576 20080402150704
+pubinto.radio-canada.ca 4 71 350795 20080414194340
+y1.db.dk 1 50 79523 20080401174939
+alille-257-1-156-231.w86-215.abo.wanadoo.fr 1 31 57058 20080425132659
+200.109.92-172.dyn.dsl.cantv.net 3 70 250919 20080407051015
+210.95.179.154 1 1 11522 20080416002653
+82.99.30.33 0 1 2143 
+livebot-65-55-165-12.search.live.com 1 1 11522 20080409011214
+77.220.7.48 8 117 354095 20080401184100
+host81-137-253-129.in-addr.btopenworld.com 2 36 230288 20080417123600
+h252.n068.nhk.or.jp 0 3 0 
+211.115.109.123 2 2 59354 20080412235020
+ua-213-112-28-45.cust.bredbandsbolaget.se 3 66 341693 20080413180231
+host145-77-dynamic.13-87-r.retail.telecomitalia.it 1 1 128049 20080409172120
+adsl31163.4u.com.gh 2 36 227551 20080430165400
+210.18.178.54 1 32 208503 20080403114459
+d58-110-79-250.meb4.vic.optusnet.com.au 2 36 227551 20080430075354
+h250.n068.nhk.or.jp 0 7 240 
+88.211.34.162 1 1 17266 20080425105637
+static-208-80-193-31.as13448.com 2 2 23044 20080419185232
+host94-209-dynamic.20-79-r.retail.telecomitalia.it 6 97 278189 20080430153453
+nissan-fw.summit.hu 1 1 17266 20080417091504
+h253.n068.nhk.or.jp 0 6 201 
+athedsl-4426363.home.otenet.gr 1 1 152031 20080408172613
+209.subnet125-160-201.speedy.telkom.net.id 2 24 43842 20080418174957
+213.55.74.197 4 89 229642 20080416153211
+pc19.jmg.gu.se 1 50 79523 20080428135001
+ns1.e-athletes.net 1 1 11522 20080408164715
+89-145-192-97.xdsl.murphx.net 1 32 208503 20080402144422
+78-86-244-77.zone2.bethere.co.uk 1 6 39701 20080418001702
+bl1sch2041416.phx.gbl 1 1 13055 20080421175251
+bigfinder.de 7 7 80654 20080427153725
+livebot-65-55-165-46.search.live.com 1 1 29677 20080428075150
+dhcp-221-057.cns.ohiou.edu 5 43 284831 20080411155539
+ns.svt.se 6 103 444550 20080416170345
+customer5519.pool1.acton-gln1070-bas0001.orangehomedsl.co.uk 1 25 23865 20080430174344
+ec2-67-202-25-76.compute-1.amazonaws.com 1 1 29677 20080429033118
+host-62-10-35-93.cust-adsl.tiscali.it 4 63 523189 20080407104036
+c32e5bf51.static.bluecom.no 1 51 79523 20080401111311
+200.219.162.82 0 31 178826 
+customer9671.pool1.liverpool-mer6166-bas0001.orangehomedsl.co.uk 1 23 25585 20080421165612
+host81-153-243-245.range81-153.btcentralplus.com 1 32 208503 20080401112530
+45ob.scansafe.net 1 23 26576 20080410093711
+host81-157-31-224.range81-157.btcentralplus.com 1 32 208503 20080402145930
+modemcable040.84-81-70.mc.videotron.ca 1 51 83855 20080407003802
+82.99.30.27 0 6 65066 
+64.41.145.120 1 1 29677 20080423022227
+92.f5.344a.static.theplanet.com 1 1 11522 20080413013923
+h071.n068.nhk.or.jp 0 10 1657 
+static-64-115-136-162.isp.broadviewnet.net 5 75 369806 20080411161443
+vc-196-207-32-37.3g.vodacom.co.za 1 32 208503 20080420180839
+85.109.87.202 1 1 29677 20080403105543
+h069.n068.nhk.or.jp 1 8 1192 20080402095417
+static-208-80-193-34.as13448.com 2 2 23044 20080426134819
+sw2-alpha-mail.dwelle.de 1 10 40809 20080409084016
+bl1sch2041408.phx.gbl 2 2 19886 20080421175259
+mail.citurna.com.co 2 51 91045 20080409204449
+livebot-65-55-165-101.search.live.com 1 1 10461 20080428231543
+88-104-140-35.dynamic.dsl.as9105.com 1 23 25585 20080429201724
+static-208-80-193-44.as13448.com 1 1 11522 20080414045734
+193.34.231.232 1 23 28970 20080409104341
+1-1-5-36b.gtd.gbg.bostream.se 2 57 89576 20080428225800
+91.84.174.224 2 24 43842 20080418114005
+195.194.19.77 1 32 208503 20080403121203
+64.233.178.136 1 1 29677 20080424222922
+202.52.249.187 2 2 161202 20080423103808
+70-59-72-62.mpls.qwest.net 1 1 17266 20080408233527
+bl1sch2041411.phx.gbl 1 1 12011 20080407170147
+h068.n068.nhk.or.jp 0 1 0 
+72.11.151.7 1 1 126995 20080402213734
+84-72-84-225.dclient.hispeed.ch 1 32 208503 20080424144052
+client-86-27-64-75.winn.adsl.virgin.net 1 1 203236 20080418220234
+h070.n068.nhk.or.jp 0 6 990 
+aplj301.us.es 1 50 79523 20080423123908
+livebot-65-55-165-52.search.live.com 1 1 12440 20080428221920
+117.6.35.65 1 1 12639 20080411092728
+h247.n068.nhk.or.jp 0 5 1331 
+79.141.140.34 1 1 66867 20080415125020
+86.100.89.125 2 58 101885 20080425224933
+c210-49-247-151.ipswc1.qld.optusnet.com.au 5 93 251427 20080430031521
+static-208-80-193-55.as13448.com 1 1 11522 20080425042742
+adsl-76-200-104-30.dsl.irvnca.sbcglobal.net 1 50 79523 20080409200844
+220.160.54.240 2 2 23044 20080401211610
+85.72.160.89 1 32 208503 20080418213857
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20080401 17 338 978050 8
+20080402 25 240 1551159 13
+20080403 107 904 1961469 15
+20080404 22 155 870269 4
+20080405 1 1 29677 1
+20080406 12 185 824355 2
+20080407 23 199 1390801 11
+20080408 10 54 290547 9
+20080409 29 324 1569032 11
+20080410 16 38 230639 3
+20080411 30 294 1688568 8
+20080412 2 2 321960 2
+20080413 33 609 9659130 6
+20080414 10 204 1217123 6
+20080415 24 253 1006460 7
+20080416 18 324 1148822 7
+20080417 18 238 940247 7
+20080418 20 242 1218090 11
+20080419 5 36 419104 5
+20080420 19 128 859547 4
+20080421 31 349 1503904 10
+20080422 36 229 1934432 7
+20080423 14 195 1202866 5
+20080424 8 126 749158 6
+20080425 10 152 639222 7
+20080426 195 273 2921150 4
+20080427 13 13 180292 3
+20080428 23 487 1840199 13
+20080429 9 133 575308 7
+20080430 29 431 1577181 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 3
+0s-30s 166
+2mn-5mn 9
+30s-2mn 25
+15mn-30mn 4
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 195
+/ 104 1071546 84 38
+/foundation/foundation.htm 100 2782125 55 51
+/past_summits/past.htm 57 1170881 2 6
+/next_summit/next.htm 53 371424 6 14
+/about/about.htm 48 688800 6 8
+/tender/tender.htm 45 428901 7 12
+/research/research.htm 45 535255 12 12
+/contact/contact.htm 35 289986 2 9
+/charters/charter.htm 35 371019 3 8
+/past_summits/pdf/finrep3.pdf 27 4704710 17 18
+/past_summits/ws_02.htm 18 194368 3 5
+/past_summits/ws_01.htm 17 199040 3 8
+/past_summits/ws_04.htm 16 192176 3 7
+/tender/WStender.pdf 13 200756 5 9
+/past_summits/ws_03.htm 10 118881 1 1
+/past_summits/pdf/finrep1.pdf 3 215545 0 1
+/past_summits/pdf/finrep2.pdf 3 7437030 1 2
+/charters/child_chart.htm 3 23480 0 0
+/research/../research/../research/../research/../research/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../research/../about/about.htm 1 16800 0 0
+/about/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../research/research.htm 1 13055 0 0
+/about/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../about/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../research/../about/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../research/../research/../research/../foundation/foundation.htm 1 29677 0 0
+/research/../about/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/../foundation/../tender/tender.htm 1 10461 0 0
+/about/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../research/../contact/contact.htm 1 8529 0 0
+/research/../research/../research/../research/../research/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../research/../research/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../research/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../research/../research/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../about/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../research/../about/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../research/../charters/charter.htm 1 11243 0 0
+/research/../research/../research/../research/../research/../research/../research/../past_summits/ws_03.htm 1 13209 0 0
+/research/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../about/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../about/../past_summits/ws_03.htm 1 13209 0 0
+/research/../about/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../contact/contact.htm 1 8529 0 0
+/research/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../contact/contact.htm 1 8529 0 0
+/research/../research/../research/../research/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../research/../research/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../past_summits/past.htm 1 25179 0 0
+/research/../about/../past_summits/ws_04.htm 1 12011 0 0
+/about/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/../past_summits/ws_04.htm 1 12011 0 0
+/research/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../charters/charter.htm 1 11243 0 0
+/research/../research/../research/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../about/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../research/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../contact/contact.htm 1 8529 0 0
+/research/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../research/../research/../research/../about/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../about/../past_summits/ws_01.htm 1 12440 0 0
+/about/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../research/../research/../charters/charter.htm 1 11243 0 0
+/research/../charters/charter.htm 1 11243 0 0
+/research/../research/../research/../research/../past_summits/../next_summit/next.htm 1 7738 0 0
+/foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../research/../research/../research/../research/../next_summit/next.htm 1 7738 0 0
+/research/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../about/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../about/about.htm 1 16800 0 0
+/research/../research/../about/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../about/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../research/../research/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../research/../about/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../research/../foundation/foundation.htm 1 29677 0 1
+/research/../research/../research/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../research/../about/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../research/../research/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../research/../research/../about/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../about/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../about/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../about/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../about/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../research/../research/../past_summits/ws_03.htm 1 13209 0 0
+/past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../about/about.htm 1 16800 0 0
+/research/../research/../research/../research/../research/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../research/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../research/../research/../research/../contact/contact.htm 1 8529 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../research/research.htm 1 13055 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/about.htm 1 16800 0 0
+/research/../research/../research/../research/../research/../research/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../charters/charter.htm 1 11243 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/research.htm 1 13055 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../research/../charters/charter.htm 1 11243 0 0
+/research/../research/../research/../research/../research/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../research/../research/../research/research.htm 1 13055 0 0
+/research/../research/../research/../research/../research/../about/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../research/../about/about.htm 1 16800 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../foundation/foundation.htm 1 29677 0 0
+/research/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../about/../past_summits/past.htm 1 25179 0 0
+/research/../research/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../past_summits/ws_03.htm 1 13209 0 0
+/research/../about/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../about/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../research/../research/../research/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../about/about.htm 1 16800 0 0
+/research/../research/../research/../research/../research/../research/../research/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../about/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../charters/charter.htm 1 11243 0 0
+/research/../about/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../research/research.htm 1 13055 0 0
+/research/../research/../research/../about/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../about/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../research/../foundation/foundation.htm 1 29677 0 0
+/research/../research/../research/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../research/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../research/../research/../research/../research/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../research/../research/../research/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../about/../past_summits/ws_02.htm 1 12148 0 0
+/research/../about/../past_summits/past.htm 1 25179 0 0
+/research/../research/research.htm 1 13055 0 0
+/research/../research/../research/../research/../research/../research/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../research/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../about/about.htm 1 16800 0 0
+/research/../contact/contact.htm 1 8529 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../about/about.htm 1 16800 0 0
+/research/../research/../research/../research/../research/../research/../research/../contact/contact.htm 1 8529 0 0
+/research/../research/../research/../research/../research/../research/../research/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../research/../research/../research/../charters/charter.htm 1 11243 0 0
+/about/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../next_summit/next.htm 1 7738 0 0
+/research/../about/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../research/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../about/../past_summits/../next_summit/next.htm 1 7738 0 0
+/research/../research/../research/../research/../research/../about/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../research/../research/../about/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../research/../research/../about/about.htm 1 16800 0 0
+/research/../research/../research/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../about/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../research/../research/../research/../research/../research/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../research/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../contact/contact.htm 1 8529 0 0
+/research/../foundation/../tender/tender.htm 1 10461 0 0
+/research/../research/../research/../research/../contact/contact.htm 1 8529 0 0
+/research/../research/../research/../research/research.htm 1 13055 0 0
+/research/../research/../research/../research/../research/../research/../research/../past_summits/ws_01.htm 1 12440 0 0
+/research/../about/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../research/../past_summits/ws_03.htm 1 13209 0 0
+/about/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../research/../research/../research/../charters/charter.htm 1 11243 0 0
+/research/../research/../research/research.htm 1 13055 0 0
+/research/../research/../research/../research/../research/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../about/../past_summits/../next_summit/next.htm 1 7738 0 0
+/foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../about/../past_summits/past.htm 1 17137 0 0
+/research/../research/../past_summits/ws_02.htm 1 12148 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../past_summits/ws_03.htm 1 13209 0 0
+/research/../research/../research/../research/../about/../past_summits/ws_01.htm 1 12440 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../past_summits/../next_summit/next.htm 1 7738 0 0
+/about/../foundation/../tender/WStender.pdf 1 17266 0 0
+/about/../past_summits/ws_04.htm 1 12011 0 0
+/research/../past_summits/past.htm 1 25179 0 0
+/research/../research/../research/../research/../research/../research/../research/../research/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../research/../research/../about/../past_summits/ws_04.htm 1 12011 0 0
+/research/../research/../foundation/../tender/WStender.pdf 1 17266 0 0
+/research/../research/../research/../research/../research/../research/../research/../about/../past_summits/ws_01.htm 1 12440 0 0
+END_SIDER

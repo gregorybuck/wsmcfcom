@@ -1,0 +1,48 @@
+eth0      Link encap:Ethernet  HWaddr 00:30:48:89:F8:FC  
+          inet addr:89.21.3.105  Bcast:89.21.3.255  Mask:255.255.255.0
+          inet6 addr: fe80::230:48ff:fe89:f8fc/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1388137850 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1615932048 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:100 
+          RX bytes:540447447 (515.4 MiB)  TX bytes:1043006310 (994.6 MiB)
+
+eth0:1    Link encap:Ethernet  HWaddr 00:30:48:89:F8:FC  
+          inet addr:89.21.3.106  Bcast:89.21.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+eth0:2    Link encap:Ethernet  HWaddr 00:30:48:89:F8:FC  
+          inet addr:89.21.3.107  Bcast:89.21.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+eth0:3    Link encap:Ethernet  HWaddr 00:30:48:89:F8:FC  
+          inet addr:89.21.3.108  Bcast:89.21.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+eth0:4    Link encap:Ethernet  HWaddr 00:30:48:89:F8:FC  
+          inet addr:89.21.3.109  Bcast:89.21.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+eth1      Link encap:Ethernet  HWaddr 00:30:48:89:F8:FD  
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:59745916 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:59745916 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1381312592 (1.2 GiB)  TX bytes:1381312592 (1.2 GiB)
+
+sit0      Link encap:IPv6-in-IPv4  
+          NOARP  MTU:1480  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
+

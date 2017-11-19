@@ -1,0 +1,795 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 200812 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 13034               
+POS_DAY 22898               
+POS_DOMAIN 3387                
+POS_LOGIN 4070                
+POS_ROBOT 4225                
+POS_WORMS 4835                
+POS_EMAILSENDER 4966                
+POS_EMAILRECEIVER 5109                
+POS_SESSION 23727               
+POS_SIDER 23930               
+POS_FILETYPES 5244                
+POS_OS 5414                
+POS_BROWSER 5621                
+POS_SCREENSIZE 6036                
+POS_UNKNOWNREFERER 6110                
+POS_UNKNOWNREFERERBROWSER 6682                
+POS_ORIGIN 7187                
+POS_SEREFERRALS 7330                
+POS_PAGEREFS 7547                
+POS_SEARCHWORDS 8503                
+POS_KEYWORDS 10350               
+POS_MISC 2199                
+POS_ERRORS 11472               
+POS_CLUSTER 3926                
+POS_SIDER_404 11587               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090101042830 4 392 42342040079
+FirstTime 20081201003956
+LastTime 20081231181129
+LastUpdate 20090101214823 4 0 3 0 0
+TotalVisits 302                 
+TotalUnique 174                 
+MonthHostsKnown 120                 
+MonthHostsUnknown 81                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 23 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 39 409153 44 50 620814
+1 19 108 286448 36 39 4942175
+2 12 68 183728 34 35 4968362
+3 16 197 950924 48 75 591915
+4 22 122 379271 43 46 501830
+5 13 50 413567 63 67 24378046
+6 31 43 424880 46 49 15104291
+7 8 8 112018 34 36 751648
+8 6 28 80528 36 43 494619
+9 13 147 487602 41 49 197238
+10 25 224 8347279 42 98 949629
+11 31 239 921112 29 34 189106
+12 31 348 2131565 31 42 543413
+13 21 191 831279 55 69 5253362
+14 72 490 2704113 103 148 38343066
+15 32 230 747116 47 63 450483
+16 24 272 1015100 63 85 15320923
+17 34 383 1553628 42 62 537593
+18 42 734 2334558 61 89 8798177
+19 12 67 354470 59 67 5455803
+20 68 380 1913307 36 160 808795
+21 24 327 1137144 25 42 165302
+22 15 149 728639 36 42 12366491
+23 13 121 280508 32 36 726163
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 31
+us 321 2297 17640786
+eu 49 248 1740458
+cn 41 41 391748
+ip 38 263 987464
+gb 33 626 1928602
+ro 14 17 309545
+fr 13 14 218418
+pt 11 237 570024
+se 10 241 532956
+il 9 123 413738
+be 8 135 574590
+br 7 86 374743
+au 6 133 619461
+za 5 68 156453
+ch 3 34 231547
+sg 3 59 101885
+ca 3 96 625509
+jp 2 2 24731
+ru 2 2 23044
+in 2 24 41609
+it 2 33 500786
+nl 2 2 24577
+kr 1 1 11522
+no 1 1 12148
+co 1 50 79523
+at 0 1 40882
+hk 1 23 26576
+ie 1 31 207673
+pl 1 1 29677
+ar 1 50 79523
+de 1 26 207739
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+slurp 292 110145971 20081231195222 0
+googlebot 210 13237403 20081231232944 0
+no_user_agent 98 386607 20081224104653 0
+msnbot 58 269120 20081231065440 0
+msnbot\-media 39 579262 20081230043144 0
+spider 38 715310 20081231131103 0
+\wbot[\/\-] 25 390899 20081211195707 0
+crawl 25 536576 20081231173952 0
+jeeves 14 743937 20081229122732 0
+^voyager\/ 5 57610 20081201170630 0
+bot[+:,\.\;\/\\-] 3 34566 20081230134316 0
+robot 2 23044 20081227151453 0
+netcraft 1 11522 20081217182408 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+png 131 4444348 0 0
+html 254 2362010 0 0
+pdf 33 10371624 0 0
+jpg 266 2809957 0 0
+htm 305 4645911 0 0
+gif 3976 4094087 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 16
+winxp 3701
+winlong 678
+win2000 106
+linuxfedora 10
+win95 1
+winunknown 1
+win2003 117
+sunos 1
+winnt 3
+win98 1
+linux 7
+winme 1
+win16 5
+macosx 159
+bsdfreebsd 1
+Unknown 173
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 27
+msie6.0 1139
+netscape4.61 1
+firefox3.0.4 858
+msie3.0 1
+opera 54
+firefox3.0.1 1
+firefox3.0 24
+msie4.01 1
+msie5.5 1
+firefox2.0.0.6 87
+firefox1.5.0.1 6
+firefox3.0.5 93
+netscape4.76 1
+msie8.0 435
+firefox1.0.7 10
+firefox2.0.0.18 175
+firefox1.0 1
+mozilla 36
+firefox2.0.0.9 3
+msie7.0 1687
+msie2.0 1
+firefox0.9.6 1
+msie5.0 1
+msie 1
+Unknown 143
+safari 202
+firefox1.5.0.7 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+Apple-PubSub/65.1.1 20081227175518
+panscient.com 20081223060244
+SeznamScreenshotator/2.0_(_http://fulltext.seznam.cz/) 20081213045833
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20081205225336
+Mozilla/3.01_(compatible;) 20081226222222
+Java/1.6.0_11 20081218035332
+- 20081215112033
+Mozilla/5.0_(compatible;_Charlotte/1.1;_http://www.searchme.com/support/) 20081224165245
+Mozilla/4.0_(compatible;) 20081204115353
+T-Online_Browser 20081228070411
+Java/1.6.0_04 20081229200238
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+Apple-PubSub/65.1.1 20081227175518
+Yandex/1.01.001_(compatible;_Win16;_I) 20081224072223
+panscient.com 20081223060244
+SeznamScreenshotator/2.0_(_http://fulltext.seznam.cz/) 20081213045833
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20081205225336
+T-Online_Browser_(Windows_NT_5.1;_U;_de) 20081228101320
+Java/1.6.0_11 20081218035332
+- 20081215112033
+T-Online_Browser 20081228070411
+Java/1.6.0_04 20081229200238
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 240 278
+From1 0 0
+From2 67 67
+From3 32 41
+From4 253 4579
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 48 48
+altavista 1 1
+live 12 12
+google_image 2 2
+msn 1 1
+yahoo 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 17
+http://www.bigfinder.de/index.php 9 9
+http://www.keywordspy.com/keyword-research/wsmcf.com 9 9
+http://www.wskarlstad2010.se/links.php 2 2
+http://www.comminit.com/es/node/31860/37 1 1
+http://www.wskarlstad2010.se/summit.php 1 1
+http://www.europasearch.com/index.aspx 1 1
+http://www.backlinkwatch.com/index.php 1 1
+http://www.wskarlstad2010.se/index.php 1 1
+http://www.wskarlstad2010.se/news.php 1 1
+http://alex-in-medialand.11vm-serv.net/link.xml 1 1
+http://www.adobe.com/products/acrobat/readstep2.html 1 1
+http://www.honda-tech.com/zerothread 1 1
+http://www.comminit.com/es/node/266114/338 1 1
+http://mail.pausoka.com/src/read_body.php 1 1
+http://www.multirio.rj.gov.br/portal/riomidia/rm_materia_conteudo.asp 1 1
+http://www.wieowie.nl/zoeken.php 0 1
+http://www.yasni.de/person/javad/dr./dr.-javad.htm 0 8
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 49
+world+summit+on+media+for+children 4
+world 3
+children 3
+what+is+a+tender+document 2
+adrian+mills+cbc 2
+media 2
+media+and+children+-+world+view 2
+world+summit+on+media+for+children+and+adolescents 2
+world+summit+on+media+and+children 2
+summit+on+media+for+children 2
+children+should+have+programs+of+high+quality+which+are+made+specifically+for+them+and+which+do+not+exploit+them.+these+programs+in+addition+to+entertaining+should+allow+children+to+develop+physically+mentally+and+socially+to+their+fullest+potential. 2
+media+and+children 2
+world+summit+for+children 1
+world+summit+foundation+on+children+and+media 1
+summit 1
+children+s+television+in+the+philippines 1
+anna+holme+the+future+of+children+s+tv 1
+about 1
+tender 1
+world+summit+children 1
+marketing+and+advertising+master+university+in+london 1
+second+world+summit+children+new+york 1
+world+summit+on+media+for+children+foundation 1
+world+summit+media+for+children 1
+tender.doc 1
+congresso+2000+children+youth+and+the+media+beyond+the+millennium 1
+the+charter+for+children%60s+television 1
+activities+using+candy+to+show+cultural+diversity+statistics+in+2050 1
+javad+foundation+canada 1
+summit+logotype 1
+bologna+ticu+mihaela 1
+kuwait+giansante 1
+world+summit+on+media 1
+adrian+children+s+tv+producer 1
+rio+summit+media+education+2002 1
+registration+form+format+of+dace+institute+in+delhi+ncr 1
+tender+documents 1
+examples+of+tender+documents 1
+research+forum+on+children 1
+world+summit+media+children+karlsburg 1
+usa+world+children+foundation 1
+children+media+summit 1
+wsmcf 1
+age+article+patricia+edgar 1
+eugenia+liroudia 1
+children+groups+final+activity 1
+media+children+summit 1
+patricia+edgar+phone 1
+anna+holme+children+s+tv 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 116
+children 38
+media 25
+summit 23
+world 22
+and 15
+on 14
+for 14
+to 7
+in 6
+the 5
+of 5
+tender 5
+which 4
+programs 4
+should 4
+s 4
+foundation 4
+tv 3
+adrian 3
+these 2
+documents 2
+not 2
+view 2
+holme 2
+what 2
+statistics 1
+form 1
+bologna 1
+producer 1
+london 1
+canada 1
+examples 1
+second 1
+them 2
+tender.doc 1
+marketing 1
+final 1
+2050 1
+congresso 1
+mills 2
+charter 1
+kuwait 1
+candy 1
+youth 1
+activities 1
+do 2
+dace 1
+children%60s 1
+is 2
+forum 1
+registration 1
+fullest 2
+- 2
+have 2
+2000 1
+socially 2
+anna 2
+quality 2
+institute 1
+education 1
+master 1
+wsmcf 1
+cbc 2
+advertising 1
+javad 1
+using 1
+potential. 2
+ncr 1
+diversity 1
+made 2
+a 2
+patricia 2
+document 2
+exploit 2
+usa 1
+activity 1
+cultural 1
+adolescents 2
+physically 2
+them. 2
+future 1
+groups 1
+philippines 1
+eugenia 1
+about 1
+new 1
+show 1
+television 2
+mentally 2
+ticu 1
+addition 2
+york 1
+millennium 1
+their 2
+entertaining 2
+rio 1
+research 1
+beyond 1
+are 2
+age 1
+edgar 2
+high 2
+develop 2
+giansante 1
+liroudia 1
+2002 1
+article 1
+karlsburg 1
+university 1
+specifically 2
+delhi 1
+phone 1
+format 1
+allow 2
+logotype 1
+mihaela 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 104 15019279
+406 6 0
+404 606 308138
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 23
+/past_summits/past_frame.htm 24 -
+/sitemap.xml 1 -
+/robots.txt 355 -
+/favicon.gif 2 -
+/past_summits/welcome_v5_sm2.png 1 -
+/about/front_slices/gifs/index_r2_c4_f2.gif 26 http://www.wsmcf.com/about/about.htm
+/research/welcome_v5_sm2.png 1 -
+/about/welcome_v5_sm2.png 1 -
+/about/front_slices/gifs/index_r2_c6_f2.gif 26 http://www.wsmcf.com/about/about.htm
+/images/bg_contact1.jpg 14 http://www.wsmcf.com/contact/contact.htm
+/about/front_slices/gifs/index_r2_c7_f2.gif 26 http://www.wsmcf.com/about/about.htm
+/about/front_slices/gifs/index_r2_c3_f2.gif 26 http://www.wsmcf.com/about/about.htm
+/welcome_v5_sm2.png 1 -
+/tender/welcome_v5_sm2.png 1 -
+/about/front_slices/gifs/index_r2_c5_f2.gif 26 http://www.wsmcf.com/about/about.htm
+/contact/welcome_v5_sm2.png 1 -
+/next_summit/welcome_v5_sm2.png 1 -
+/charters/welcome_v5_sm2.png 1 -
+/about/front_slices/gifs/index_r2_c2_f2.gif 26 http://www.wsmcf.com/about/about.htm
+/foundation/welcome_v5_sm2.png 1 -
+/research/front_slices/gifs/spacer.gif 18 http://www.wsmcf.com/research/research.htm
+/image1234.php 1 -
+/about/front_slices/gifs/index_r2_c9_f2.gif 26 http://www.wsmcf.com/about/about.htm
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 201
+124.115.1.66 28 28 322616 20081223111743
+124.115.10.193 27 27 311094 20081223005153
+hash83.dialup.corbina.ru 25 25 356502 20081206141735
+bzq-114-71-13.static.bezeqint.net 25 25 436810 20081216202448
+host-84-220-135-177.cust-adsl.tiscali.it 23 239 1685282 20081201163218
+38.100.8.50 18 18 240595 20081223060244
+host167-121-dynamic.14-87-r.retail.telecomitalia.it 17 438 1241836 20081207182619
+89.122.29.82 14 17 309545 20081229200238
+cpc3-stev5-0-0-cust252.lutn.cable.ntl.com 13 213 491808 20081227180210
+lju91-2-82-227-236-56.fbx.proxad.net 13 13 184012 20081220115002
+38.105.83.12 13 13 184012 20081210154857
+81.84.156.14 11 237 570024 20081225205216
+wacala.swiftkenya.com 10 115 1033734 20081201121055
+ips-crawl5.colo-fo.ilg1.verisign.com 10 10 146644 20081206205221
+bigfinder.de 9 9 103698 20081230103534
+dsl217-132-23-111.bb.netvision.net.il 9 123 413738 20081229145311
+c213-89-166-231.bredband.comhem.se 9 191 453433 20081227112442
+no-dns-yet.demon.co.uk 8 161 112240 20081212153228
+cust-161-126-111-94.dyn.versateladsl.be 8 113 488017 20081205210737
+m83-188-213-126.cust.tele2.se 7 7 0 20081204234639
+200.136.27.3 7 86 374743 20081208140318
+232.49-201-80.adsl-dyn.isp.belgacom.be 7 103 366087 20081211103338
+66.232.111.94 6 6 69132 20081231043726
+208.80.194.48 6 6 69132 20081222043853
+be2h2-ext.rulespace.com 6 6 90826 20081211053718
+sol-fttb.122.116.27.94.sovam.net.ua 1 1 29677 20081203163731
+msnbot-65-55-110-155.search.msn.com 1 1 16800 20081228160512
+208.80.194.37 3 3 34566 20081231181129
+62-47-135-255.adsl.highway.telekom.at 0 1 40882 
+chello084112165233.30.11.vie.surfer.at 0 1 40882 
+ctb-cache8-vif0.saix.net 1 7 21739 20081224173549
+m83-188-249-172.cust.tele2.se 5 5 0 20081207023908
+124.105.105.170.pldt.net 1 23 25585 20081201140316
+rrba-ip-pcache-5-vif1.telkom-ipnet.co.za 0 3 1327 
+65.55.110.34 1 1 8529 20081231065714
+92.48.193.55 1 1 13055 20081227220857
+208.80.194.52 4 4 46088 20081227101707
+h30.218.88.75.dynamic.ip.windstream.net 5 83 334284 20081208034911
+webgw3.thls.bbc.co.uk 4 77 322425 20081211130352
+208.80.194.54 2 2 23044 20081225171958
+h-66-166-6-142.lsanca54.covad.net 1 19 22068 20081216014903
+63.241.98.52 2 2 59354 20081228185248
+124.115.1.8 2 2 23044 20081219141124
+193.120.116.178 1 31 207673 20081204115351
+parl153.parl.gc.ca 1 32 208503 20081223185153
+host130.190-31-149.telecom.net.ar 1 50 79523 20081219204345
+82.99.30.69 0 1 2143 
+208.80.194.32 2 2 23044 20081212044822
+m83-188-212-13.cust.tele2.se 3 3 0 20081205231138
+nat.norc.net 2 67 283812 20081220214416
+webgw2.mh.bbc.co.uk 1 32 208503 20081216142308
+65-126-201-2.dia.static.qwest.net 1 32 208503 20081229151955
+ch-boston.tch.harvard.edu 3 65 345063 20081208180306
+unknown6.189.204.74.defenderhosting.com 3 3 39165 20081231103451
+65.55.110.112 1 1 12440 20081207041714
+123.117.44.99 3 3 0 20081227055403
+host204-13-162-37.oversee.net 1 1 11522 20081216110847
+host86-130-211-60.range86-130.btcentralplus.com 3 81 7488862 20081209104620
+cpe-124-179-104-138.nsw.bigpond.net.au 1 1 12711 20081208024834
+rrba-ip-pcache-5-vif0.telkom-ipnet.co.za 0 11 10906 
+203.57.15.71 1 26 47195 20081209104844
+150.70.84.41 2 2 24731 20081208142528
+security-lab1.juniper.net 1 1 11522 20081201014137
+bas1-montreal48-1176174207.dsl.bell.ca 1 32 208503 20081224001845
+proxy.seznam.cz 3 52 102567 20081213045831
+msnbot-65-55-107-203.search.msn.com 1 1 11243 20081228050244
+123.238.34.37 1 23 28970 20081230035756
+125.34.64.172 1 1 0 20081227175518
+208.80.194.120 1 1 11522 20081214152516
+reverse.completel.net 0 1 34406 
+67.110.128.53.ptr.us.xo.net 4 113 117402 20081209165221
+m83-188-231-157.cust.tele2.se 1 1 0 20081203121347
+196.207.251.189 1 5 24222 20081210182100
+193.134.254.25 0 9 68575 
+208.80.194.41 1 1 11522 20081228095258
+208.80.194.53 2 2 23044 20081231104714
+208.80.194.34 2 2 23044 20081222192035
+222.231.42.188 1 1 11522 20081223015154
+crawl1.nat.svl.searchme.com 2 2 59354 20081224165245
+82.99.30.49 0 1 3660 
+c-98-233-31-16.hsd1.md.comcast.net 1 1 163840 20081210035752
+146.160.50.60.kbu01-home.tm.net.my 2 24 43842 20081211191027
+82.161.231.16 1 1 11522 20081219131827
+rsvd-e2b-library-schools-4.47.38.213.in-addr.arpa 1 1 17266 20081217141345
+203.117.218.178 3 59 101885 20081209020813
+c-71-196-73-36.hsd1.fl.comcast.net 1 50 79523 20081229221926
+132.74.99.86 1 23 25585 20081230085627
+adsl-67-121-147-0.dsl.pltn13.pacbell.net 1 1 7738 20081211224011
+dslb-088-076-094-011.pools.arcor-ip.net 0 1 40882 
+m83-188-251-59.cust.tele2.se 2 2 0 20081203192508
+208.80.194.56 1 1 11522 20081218043144
+imimicjo1.net.ecu.edu.au 2 39 276932 20081204053422
+host81-151-148-56.range81-151.btcentralplus.com 1 50 79523 20081203232533
+82.99.30.31 0 8 37287 
+80.83.102.162 0 1 40882 
+208.80.194.46 4 4 46088 20081224173609
+208.80.194.44 1 1 11522 20081207022317
+wblv-ip-pcache-7-vif0.telkom-ipnet.co.za 0 5 15851 
+65.55.232.38 1 1 11243 20081202004313
+cbf030.gcal.ac.uk 5 78 335738 20081209131301
+m83-188-209-228.cust.tele2.se 2 2 0 20081203222400
+190.252.237.182 2 58 101885 20081216125431
+190.6.224.35 2 24 43842 20081202143505
+65.55.232.44 1 1 11522 20081202003648
+dsl253-076-004.nyc1.dsl.speakeasy.net 3 87 216660 20081208215148
+208.80.194.50 3 3 34566 20081227063209
+91.84.126.55 1 32 208503 20081202122300
+m83-188-250-39.cust.tele2.se 2 2 0 20081208005421
+pubinto.radio-canada.ca 1 32 208503 20081209193728
+dslb-088-075-086-245.pools.arcor-ip.net 0 12 34713 
+adsl-212-42-188-189.fast.net.uk 1 32 208503 20081205125337
+ua-83-227-236-204.cust.bredbandsbolaget.se 3 3 0 20081204143644
+abts-north-dynamic-238.99.163.122.airtelbroadband.in 1 1 12639 20081219083222
+adsl-75-22-166-49.dsl.scrm01.sbcglobal.net 1 1 143319 20081204001810
+m83-188-193-174.cust.tele2.se 2 2 0 20081208043038
+c-98-242-217-218.hsd1.fl.comcast.net 1 23 28970 20081216223045
+host81-129-255-138.range81-129.btcentralplus.com 2 25 43842 20081202131218
+socom2.soc.uniroma1.it 1 32 208503 20081202165820
+ppp-71-142-14-84.dsl.frs2ca.pacbell.net 1 1 7738 20081225083429
+208.80.194.121 1 1 11522 20081221170821
+host3-255-static.105-82-b.business.telecomitalia.it 1 1 292283 20081229101453
+uxs1r.brunel.ac.uk 1 32 208503 20081201225114
+cpe-66-67-98-70.rochester.res.rr.com 1 1 12768 20081226063001
+88.151.46.18 2 2 11522 20081201113840
+c83-253-184-140.bredband.comhem.se 1 50 79523 20081227094252
+wblv-ip-pcache-1-vif0.telkom-ipnet.co.za 0 6 7509 
+rba-cache2-vif1.saix.net 0 3 14930 
+193.134.254.24 0 9 66110 
+p548de0f4.dip.t-dialin.net 0 1 40882 
+123.117.32.64 1 1 0 20081220174249
+125.34.68.215 2 2 0 20081226193157
+199.red-83-60-243.dynamicip.rima-tde.net 2 43 1025 20081203142201
+65.55.110.108 1 1 13209 20081220012419
+125.34.70.150 1 1 11522 20081223163014
+m83-188-217-155.cust.tele2.se 2 2 0 20081203141548
+cust-185-7-111-94.dyn.versateladsl.be 3 62 119942 20081207232905
+h-87.118.70.220.keyweb.de 1 1 16800 20081201013210
+41.208.134.219 5 99 423756 20081210173620
+193.134.254.20 0 5 41791 
+m83-188-247-24.cust.tele2.se 2 2 0 20081207165712
+gw-hh-1.arcus-hh.de 0 22 68293 
+tide541.microsoft.com 1 1 7738 20081216120433
+64.22.75.192 2 2 59354 20081218035332
+ns.km23049-05.keymachine.de 1 1 16800 20081225234316
+wblv-ip-pcache-5-vif1.telkom-ipnet.co.za 2 6 23675 20081224173557
+123.117.33.110 1 1 0 20081214162740
+m83-188-231-186.cust.tele2.se 1 1 11522 20081206122941
+doi-fire.doi.vic.gov.au 2 67 283812 20081217114330
+d54c2f66b.access.telenet.be 1 1 29677 20081215150801
+130.175-247-81.adsl-dyn.isp.belgacom.be 1 32 208503 20081217220008
+s5592e84f.adsl.wanadoo.nl 0 1 40882 
+208.80.194.26 1 1 11522 20081202133040
+adsl-70-237-220-205.dsl.stlsmo.sbcglobal.net 5 76 119151 20081211013510
+208.80.194.51 4 4 46088 20081230174602
+82.99.30.27 0 6 65066 
+208.80.194.42 2 2 23044 20081223180259
+msnbot-65-55-109-195.search.msn.com 1 1 16800 20081225041129
+bzq-82-80-249-160.dcenter.bezeqint.net 1 1 11522 20081216134325
+208.80.194.49 1 1 11522 20081201003956
+dommon2.prod.dbs.melbourneit.com 1 1 11522 20081215112033
+208.80.194.45 4 4 46088 20081229113859
+rrba-ip-pcache-6-vif1.telkom-ipnet.co.za 0 1 831 
+m83-188-196-199.cust.tele2.se 1 1 0 20081207035250
+c-68-50-64-5.hsd1.md.comcast.net 1 1 7738 20081204224157
+198.87.2.45 3 3 34566 20081201061849
+btw86.neoplus.adsl.tpnet.pl 1 1 29677 20081228040322
+208.80.194.29 1 1 11522 20081204231333
+208.80.194.35 3 3 34566 20081228123407
+124.115.1.7 5 5 57610 20081223004157
+mail.citurna.com.co 1 50 79523 20081216212033
+208.94.243.130 1 1 11522 20081216212951
+193.134.254.26 1 9 32027 20081203095420
+89.240.128.16 4 77 375243 20081207180827
+194.165.42.95 2 2 23044 20081212095027
+208.80.194.40 2 2 23044 20081208095531
+c716d47c1.dhcp.bluecom.no 1 1 12148 20081205225336
+227.41.78.in-addr.arpa 4 97 415100 20081203122254
+rrba-ip-pcache-6-vif0.telkom-ipnet.co.za 1 11 23170 20081224173450
+noc10-seg-res.pacenet-india.com 1 23 26576 20081207175609
+rrba-ip-pcache-2-vif0.telkom-ipnet.co.za 0 6 10901 
+82.194.175.96 1 53 82337 20081213092517
+spider33.yandex.ru 5 5 57610 20081224072223
+msnbot-65-55-110-97.search.msn.com 1 1 10461 20081228170322
+65.55.232.36 1 1 11522 20081204142632
+crawl2.nat.svl.searchme.com 1 1 13055 20081224065007
+208.80.194.33 2 2 23044 20081210163221
+78.146.212.145 1 32 208503 20081207201725
+p5b04c5d8.dip.t-dialin.net 0 1 40882 
+client-190.40.199.226.speedy.net.pe 2 61 278239 20081210034909
+adsl-69-212-224-76.dsl.sfldmi.ameritech.net 1 1 7738 20081229090307
+pool-71-97-188-15.aubnin.dsl-w.verizon.net 1 1 75491 20081214225940
+82.99.30.59 0 1 3633 
+ppp-58-8-37-170.revip2.asianet.co.th 1 52 79523 20081208042448
+msnbot-65-55-110-171.search.msn.com 1 1 7738 20081228133904
+208.80.194.38 3 3 34566 20081213014628
+216.171.98.77 1 1 11522 20081206170737
+5acd2163.bb.sky.com 0 1 40882 
+d90-129-211-34.cust.tele2.at 0 1 40882 
+rrba-ip-pcache-1-vif1.telkom-ipnet.co.za 1 9 25614 20081224173514
+m83-188-240-123.cust.tele2.se 1 1 0 20081209041059
+124.115.1.60 2 2 23044 20081218122859
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20081201 44 419 3109595 11
+20081202 11 118 562021 9
+20081203 17 231 745350 11
+20081204 18 87 751992 13
+20081205 17 153 756443 10
+20081206 40 40 526190 7
+20081207 37 644 2034261 16
+20081208 30 398 1545991 16
+20081209 23 397 8362998 12
+20081210 28 186 1184083 11
+20081211 30 292 1007679 11
+20081212 13 166 169850 6
+20081213 11 112 265558 9
+20081214 11 92 479330 8
+20081215 8 8 110331 8
+20081216 42 218 1018872 17
+20081217 13 109 613279 10
+20081218 8 8 110331 8
+20081219 10 60 225220 10
+20081220 24 111 629980 11
+20081221 6 6 69132 6
+20081222 6 7 110014 6
+20081223 27 58 541274 10
+20081224 12 106 471931 11
+20081225 17 244 686810 7
+20081226 7 7 58856 6
+20081227 28 390 772391 12
+20081228 11 12 204088 11
+20081229 28 226 1363734 7
+20081230 6 51 136582 6
+20081231 9 9 103771 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 6
+0s-30s 259
+2mn-5mn 5
+30s-2mn 19
+15mn-30mn 3
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/ 254 2362010 231 200
+/foundation/foundation.htm 57 1602558 26 31
+/next_summit/next.htm 37 255354 6 9
+/research/research.htm 33 417760 7 8
+/about/about.htm 32 487200 6 8
+/past_summits/past.htm 27 629475 0 1
+/charters/charter.htm 25 247346 5 6
+/tender/tender.htm 24 251064 6 3
+/contact/contact.htm 23 170580 1 6
+/past_summits/ws_04.htm 14 168154 0 3
+/tender/WStender.pdf 13 189926 2 8
+/past_summits/pdf/finrep3.pdf 13 1842570 7 8
+/past_summits/ws_03.htm 12 158508 2 2
+/past_summits/ws_01.htm 11 136840 2 5
+/past_summits/ws_02.htm 9 109332 1 1
+/past_summits/pdf/finrep2.pdf 5 8052652 0 2
+/past_summits/pdf/finrep1.pdf 2 286476 0 0
+/charters/child_chart.htm 1 11740 0 1
+END_SIDER

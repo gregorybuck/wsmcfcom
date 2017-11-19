@@ -1,0 +1,4 @@
+Disk quotas for user wsmcfcom (uid 32200): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+/dev/mapper/VolGroup00-LogVol00
+                  26076  512000  512000             623       0       0        

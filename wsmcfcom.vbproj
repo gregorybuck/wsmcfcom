@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{712AF0F0-7B69-41AD-BD8B-C0D2D42EEA5E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>wsmcfcom</RootNamespace>
+    <AssemblyName>wsmcfcom</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>wsmcfcom.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>wsmcfcom.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="public_html\404.shtml" />
+    <Content Include="public_html\about\about.htm" />
+    <Content Include="public_html\charters\charter.htm" />
+    <Content Include="public_html\charters\child_chart.htm" />
+    <Content Include="public_html\contact\contact.htm" />
+    <Content Include="public_html\foundation\foundation.htm" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c1.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c10.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c3.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c4.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c5.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c6.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c7.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c8.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r1_c9.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c1.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c10.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c2_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c3.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c3_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c4.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c4_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c5.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c5_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c6.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c6_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c7.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c7_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c8.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c8_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c9.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r2_c9_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c1.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c10.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c3.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c4.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c5.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c6.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c7.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c8.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r3_c9.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c1.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c10.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c3 - Copy.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c3.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c4.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c5.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c6.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c7.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c8.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r4_c9.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c1.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c10.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c2_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c3.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c3_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c4.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c5.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c7.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c7_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c8.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c8_f2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r5_c9.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c1.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c10.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c2.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c3.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c4.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c5.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c7.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c8.gif" />
+    <Content Include="public_html\front_slices\gifs\index_r6_c9.gif" />
+    <Content Include="public_html\front_slices\gifs\spacer.gif" />
+    <Content Include="public_html\front_slices\index_r1_c1.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c10.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c13.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c14.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c2.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c3.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c4.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c5.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c6.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c7.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c8.jpg" />
+    <Content Include="public_html\front_slices\index_r1_c9.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c1.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c10.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c10_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c11.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c12.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c2_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c3.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c3_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c4.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c4_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c5.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c5_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c6.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c6_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c7.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c7_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c8.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c8_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c9.jpg" />
+    <Content Include="public_html\front_slices\index_r2_c9_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c1.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c10.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c2.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c3.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c4.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c5.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c6.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c7.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c8.jpg" />
+    <Content Include="public_html\front_slices\index_r3_c9.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c1.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c10.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c2.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c3.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c4.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c5.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c6.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c7.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c8.jpg" />
+    <Content Include="public_html\front_slices\index_r4_c9.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c1.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c10.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c2.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c2_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c3.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c3_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c4.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c5.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c7.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c7_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c8.jpg" />
+    <Content Include="public_html\front_slices\index_r5_c9.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c1.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c10.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c11.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c12.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c13.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c2.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c3.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c3_f2.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c4.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c5.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c6.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c7.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c8.jpg" />
+    <Content Include="public_html\front_slices\index_r6_c9.jpg" />
+    <Content Include="public_html\front_slices\index_r7_c1.jpg" />
+    <Content Include="public_html\front_slices\index_r7_c2.jpg" />
+    <Content Include="public_html\front_slices\spacer.gif" />
+    <Content Include="public_html\images\adrian.jpg" />
+    <Content Include="public_html\images\AliceWebb_160x163.jpg" />
+    <Content Include="public_html\images\anna.jpg" />
+    <Content Include="public_html\images\athina.jpg" />
+    <Content Include="public_html\images\bg_about.jpg" />
+    <Content Include="public_html\images\bg_charter.gif" />
+    <Content Include="public_html\images\bg_charter.jpg" />
+    <Content Include="public_html\images\bg_contact.jpg" />
+    <Content Include="public_html\images\bg_next.jpg" />
+    <Content Include="public_html\images\bg_past.gif" />
+    <Content Include="public_html\images\bg_past.jpg" />
+    <Content Include="public_html\images\bg_research.jpg" />
+    <Content Include="public_html\images\bg_tender.jpg" />
+    <Content Include="public_html\images\bg_who.jpg" />
+    <Content Include="public_html\images\bg_ws01.jpg" />
+    <Content Include="public_html\images\bg_ws02.jpg" />
+    <Content Include="public_html\images\bg_ws03.jpg" />
+    <Content Include="public_html\images\blank.gif" />
+    <Content Include="public_html\images\carlstadbanner2010.png" />
+    <Content Include="public_html\images\clovell.jpg" />
+    <Content Include="public_html\images\dates.gif" />
+    <Content Include="public_html\images\dates_95.gif" />
+    <Content Include="public_html\images\dates_flip.gif" />
+    <Content Include="public_html\images\edge_bot.gif" />
+    <Content Include="public_html\images\edge_bot55.gif" />
+    <Content Include="public_html\images\edge_top.gif" />
+    <Content Include="public_html\images\edge_top55.gif" />
+    <Content Include="public_html\images\elogo.gif" />
+    <Content Include="public_html\images\ewartella.jpg" />
+    <Content Include="public_html\images\femalesilhouette.png" />
+    <Content Include="public_html\images\feny.jpg" />
+    <Content Include="public_html\images\FreddyTulung.png" />
+    <Content Include="public_html\images\Jailani.png" />
+    <Content Include="public_html\images\javad.png" />
+    <Content Include="public_html\images\julieta.jpg" />
+    <Content Include="public_html\images\left.gif" />
+    <Content Include="public_html\images\line.gif" />
+    <Content Include="public_html\images\link.gif" />
+    <Content Include="public_html\images\link_bl.gif" />
+    <Content Include="public_html\images\link_bl_f2.gif" />
+    <Content Include="public_html\images\link_f2.gif" />
+    <Content Include="public_html\images\link_gr.gif" />
+    <Content Include="public_html\images\link_gr.htm" />
+    <Content Include="public_html\images\link_gr_f2.gif" />
+    <Content Include="public_html\images\link_libl.gif" />
+    <Content Include="public_html\images\link_libl_f2.gif" />
+    <Content Include="public_html\images\link_p.gif" />
+    <Content Include="public_html\images\link_purp.gif" />
+    <Content Include="public_html\images\link_purp_f2.gif" />
+    <Content Include="public_html\images\link_p_f2.gif" />
+    <Content Include="public_html\images\link_yel.gif" />
+    <Content Include="public_html\images\link_yel_f2.gif" />
+    <Content Include="public_html\images\logos\bg_00.gif" />
+    <Content Include="public_html\images\logos\bg_01.gif" />
+    <Content Include="public_html\images\logos\bg_02.gif" />
+    <Content Include="public_html\images\logos\bg_03.gif" />
+    <Content Include="public_html\images\logos\bg_04.gif" />
+    <Content Include="public_html\images\logos\bg_05.gif" />
+    <Content Include="public_html\images\logos\bg_06.gif" />
+    <Content Include="public_html\images\logos\bg_95.gif" />
+    <Content Include="public_html\images\logos\bg_96.gif" />
+    <Content Include="public_html\images\logos\bg_97.gif" />
+    <Content Include="public_html\images\logos\bg_98.gif" />
+    <Content Include="public_html\images\logos\bg_99.gif" />
+    <Content Include="public_html\images\logos\logo_00.gif" />
+    <Content Include="public_html\images\logos\logo_01.gif" />
+    <Content Include="public_html\images\logos\logo_01_sm.gif" />
+    <Content Include="public_html\images\logos\logo_04.gif" />
+    <Content Include="public_html\images\logos\logo_05.gif" />
+    <Content Include="public_html\images\logos\logo_06.gif" />
+    <Content Include="public_html\images\logos\logo_95.gif" />
+    <Content Include="public_html\images\logos\logo_95sm.gif" />
+    <Content Include="public_html\images\logos\logo_96.gif" />
+    <Content Include="public_html\images\logos\logo_98.gif" />
+    <Content Include="public_html\images\logos\logo_98sm.gif" />
+    <Content Include="public_html\images\logos\logo_new.gif" />
+    <Content Include="public_html\images\logos\ws_kl.gif" />
+    <Content Include="public_html\images\lundgren.png" />
+    <Content Include="public_html\images\malesilhouette.png" />
+    <Content Include="public_html\images\miva1.gif" />
+    <Content Include="public_html\images\nadia.jpg" />
+    <Content Include="public_html\images\ParniHadi.png" />
+    <Content Include="public_html\images\patricia.jpg" />
+    <Content Include="public_html\images\patricia.png" />
+    <Content Include="public_html\images\patriciaC.jpg" />
+    <Content Include="public_html\images\powered.gif" />
+    <Content Include="public_html\images\regina.gif" />
+    <Content Include="public_html\images\regina.jpg" />
+    <Content Include="public_html\images\spacer.gif" />
+    <Content Include="public_html\images\spacer_1.gif" />
+    <Content Include="public_html\images\spacer_10.gif" />
+    <Content Include="public_html\images\spacer_5.gif" />
+    <Content Include="public_html\images\sq_about.gif" />
+    <Content Include="public_html\images\sq_charters.gif" />
+    <Content Include="public_html\images\sq_contact.gif" />
+    <Content Include="public_html\images\sq_foundation.gif" />
+    <Content Include="public_html\images\sq_next.gif" />
+    <Content Include="public_html\images\sq_past.gif" />
+    <Content Include="public_html\images\sq_research.gif" />
+    <Content Include="public_html\images\top.gif" />
+    <Content Include="public_html\images\VijaySadhu.png" />
+    <Content Include="public_html\images\ws1cov.jpg" />
+    <Content Include="public_html\images\ws1cov_v2.gif" />
+    <Content Include="public_html\images\ws1cov_v2.jpg" />
+    <Content Include="public_html\images\ws1cov_v2_f2.gif" />
+    <Content Include="public_html\images\ws2cov.jpg" />
+    <Content Include="public_html\images\ws2cov_v2.gif" />
+    <Content Include="public_html\images\ws2cov_v2.jpg" />
+    <Content Include="public_html\images\ws2cov_v2_f2.gif" />
+    <Content Include="public_html\images\ws3cov_v2.gif" />
+    <Content Include="public_html\images\ws3cov_v2_f2.gif" />
+    <Content Include="public_html\images\ws_kl_banner.png" />
+    <Content Include="public_html\images\YangBinyuan.png" />
+    <Content Include="public_html\images\_vti_cnf\blank.gif" />
+    <Content Include="public_html\images\_vti_cnf\elogo.gif" />
+    <Content Include="public_html\images\_vti_cnf\left.gif" />
+    <Content Include="public_html\images\_vti_cnf\miva1.gif" />
+    <Content Include="public_html\images\_vti_cnf\powered.gif" />
+    <Content Include="public_html\images\_vti_cnf\top.gif" />
+    <Content Include="public_html\index.htm" />
+    <Content Include="public_html\mobiles.PNG" />
+    <Content Include="public_html\nav\logo_96.gif" />
+    <Content Include="public_html\nav\nav_r1_c1.gif" />
+    <Content Include="public_html\nav\nav_r1_c1_f2.gif" />
+    <Content Include="public_html\nav\nav_r1_c2.gif" />
+    <Content Include="public_html\nav\nav_r2_c11.gif" />
+    <Content Include="public_html\nav\nav_r2_c2.gif" />
+    <Content Include="public_html\nav\nav_r2_c4.gif" />
+    <Content Include="public_html\nav\nav_r2_c4_f2.gif" />
+    <Content Include="public_html\nav\nav_r2_c4_f3.gif" />
+    <Content Include="public_html\nav\nav_r2_c4_f4.gif" />
+    <Content Include="public_html\nav\nav_r2_c4_f5.gif" />
+    <Content Include="public_html\nav\nav_r2_c4_f6.gif" />
+    <Content Include="public_html\nav\nav_r2_c4_f7.gif" />
+    <Content Include="public_html\nav\nav_r2_c4_f8.gif" />
+    <Content Include="public_html\nav\nav_r3_c4.gif" />
+    <Content Include="public_html\nav\nav_r4_c10.gif" />
+    <Content Include="public_html\nav\nav_r4_c10_f2.gif" />
+    <Content Include="public_html\nav\nav_r4_c10_f3.gif" />
+    <Content Include="public_html\nav\nav_r4_c10_f9.gif" />
+    <Content Include="public_html\nav\nav_r4_c12.gif" />
+    <Content Include="public_html\nav\nav_r4_c2.gif" />
+    <Content Include="public_html\nav\nav_r4_c3.gif" />
+    <Content Include="public_html\nav\nav_r4_c3_f2.gif" />
+    <Content Include="public_html\nav\nav_r4_c3_f3.gif" />
+    <Content Include="public_html\nav\nav_r4_c3_f4.gif" />
+    <Content Include="public_html\nav\nav_r4_c3_f9.gif" />
+    <Content Include="public_html\nav\nav_r4_c5.gif" />
+    <Content Include="public_html\nav\nav_r4_c5_f2.gif" />
+    <Content Include="public_html\nav\nav_r4_c5_f3.gif" />
+    <Content Include="public_html\nav\nav_r4_c5_f9.gif" />
+    <Content Include="public_html\nav\nav_r4_c6.gif" />
+    <Content Include="public_html\nav\nav_r4_c6_f2.gif" />
+    <Content Include="public_html\nav\nav_r4_c6_f3.gif" />
+    <Content Include="public_html\nav\nav_r4_c6_f9.gif" />
+    <Content Include="public_html\nav\nav_r4_c7.gif" />
+    <Content Include="public_html\nav\nav_r4_c7_f2.gif" />
+    <Content Include="public_html\nav\nav_r4_c7_f3.gif" />
+    <Content Include="public_html\nav\nav_r4_c7_f9.gif" />
+    <Content Include="public_html\nav\nav_r4_c8.gif" />
+    <Content Include="public_html\nav\nav_r4_c8_f2.gif" />
+    <Content Include="public_html\nav\nav_r4_c8_f3.gif" />
+    <Content Include="public_html\nav\nav_r4_c8_f9.gif" />
+    <Content Include="public_html\nav\nav_r4_c9.gif" />
+    <Content Include="public_html\nav\nav_r4_c9_f2.gif" />
+    <Content Include="public_html\nav\nav_r4_c9_f3.gif" />
+    <Content Include="public_html\nav\nav_r4_c9_f9.gif" />
+    <Content Include="public_html\nav\nav_r5_c12.gif" />
+    <Content Include="public_html\nav\nav_r5_c13.gif" />
+    <Content Include="public_html\nav\nav_r5_c13_f2.gif" />
+    <Content Include="public_html\nav\nav_r5_c3.gif" />
+    <Content Include="public_html\nav\nav_r6_c3.gif" />
+    <Content Include="public_html\nav\spacer.gif" />
+    <Content Include="public_html\next_summit\newSpeakers_2017.html" />
+    <Content Include="public_html\next_summit\next.htm" />
+    <Content Include="public_html\past_summits\ws_kualalumpur.htm" />
+    <Content Include="public_html\past_summits\ws_karlstad.htm" />
+    <Content Include="public_html\past_summits\past.htm" />
+    <Content Include="public_html\past_summits\ws_01.htm" />
+    <Content Include="public_html\past_summits\ws_02.htm" />
+    <Content Include="public_html\past_summits\ws_03.htm" />
+    <Content Include="public_html\past_summits\ws_04.htm" />
+    <Content Include="public_html\research\research.htm" />
+    <Content Include="public_html\tender\tender.htm" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="public_html\charters\rio_charters_ENG.pdf" />
+    <None Include="public_html\DEV\foundation.psd" />
+    <None Include="public_html\foundation\_notes\foundation2.htm.mno" />
+    <None Include="public_html\front_slices\gifs\Thumbs.db" />
+    <None Include="public_html\front_slices\Thumbs.db" />
+    <None Include="public_html\images\logos\Thumbs.db" />
+    <None Include="public_html\images\Thumbs.db" />
+    <None Include="public_html\nav\Thumbs.db" />
+    <None Include="public_html\next_summit\WSMC2017_pressrelease.pdf" />
+    <None Include="public_html\next_summit\WSMCF 2017 Summit Release.pdf" />
+    <None Include="public_html\past_summits\pdf\ws2010programme.pdf" />
+    <None Include="public_html\past_summits\pdf\WS_2010_finalreport.pdf" />
+    <None Include="public_html\past_summits\pdf\WS_2010_folder_printable.pdf" />
+    <None Include="public_html\past_summits\pdf\finrep1.pdf" />
+    <None Include="public_html\past_summits\pdf\finrep1old.pdf" />
+    <None Include="public_html\past_summits\pdf\finrep2.pdf" />
+    <None Include="public_html\past_summits\pdf\finrep3.pdf" />
+    <Content Include="public_html\tender\WS_Tender_Document2020.pdf" />
+    <Content Include="public_html\tender\WS_Tender_MediaRelease2020.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="public_html\adrianmills45\" />
+    <Folder Include="public_html\cgi-bin\" />
+    <Folder Include="public_html\next_summit\images\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1214</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

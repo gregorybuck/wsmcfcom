@@ -1,0 +1,832 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>The Foundation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+    <script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+    </script>
+    <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6651318-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</head>
+<body marginheight="0px" marginwidth="0px" bgcolor="#9966CC" background="../images/bg_who.jpg"
+    link="#33FFFF" onLoad="MM_preloadImages('../images/link_bl_f2.gif')">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+        <tr>
+            <th scope="col">
+                <table width="770" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <!-- fwtable fwsrc="welcome_v5_sm2.png" fwbase="index.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+                    <tr>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="51">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="64">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="104">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="98">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="65">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="128">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="40">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="87">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="72">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="61">
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="1" width="1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                        <td>
+                            <img name="index_r1_c2" src="../front_slices/gifs/index_r1_c2.gif" alt="" border="0"
+                                height="30" width="64">
+                        </td>
+                        <td>
+                            <img name="index_r1_c3" src="../front_slices/gifs/index_r1_c3.gif" alt="" border="0"
+                                height="30" width="104">
+                        </td>
+                        <td>
+                            <img name="index_r1_c4" src="../front_slices/gifs/index_r1_c4.gif" alt="" border="0"
+                                height="30" width="98">
+                        </td>
+                        <td>
+                            <img name="index_r1_c5" src="../front_slices/gifs/index_r1_c5.gif" alt="" border="0"
+                                height="30" width="65">
+                        </td>
+                        <td>
+                            <img name="index_r1_c6" src="../front_slices/gifs/index_r1_c6.gif" alt="" border="0"
+                                height="30" width="128">
+                        </td>
+                        <td colspan="2">
+                            <img name="index_r1_c7" src="../front_slices/gifs/index_r1_c7.gif" alt="" border="0"
+                                height="30" width="127">
+                        </td>
+                        <td>
+                            <img name="index_r1_c9" src="../front_slices/gifs/index_r1_c9.gif" alt="" border="0"
+                                height="30" width="72">
+                        </td>
+                        <td>&nbsp;
+                            
+                        </td>
+                        <td>
+                            <img src="../front_slices/gifs/spacer.gif" alt="" border="0" height="30" width="1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;
+                            
+                        </td>
+                        <td>
+                            <a href="http://www.wsmcf.com/about/about.htm" target="_self" onMouseOver="MM_swapImage('index_r2_c2','','../front_slices/gifs/index_r2_c2_f2.gif',1);"
+                                onmouseout="MM_swapImgRestore()">
+                                <img name="index_r2_c2" src="../front_slices/gifs/index_r2_c2.gif" alt="About" border="0"
+                                    height="27" width="64"></a>
+                        </td>
+                        <td>
+                            <a href="http://www.wsmcf.com/foundation/foundation.htm" target="_self" onMouseOver="MM_swapImage('index_r2_c3','','../front_slices/gifs/index_r2_c3_f2.gif',1);"
+                                onmouseout="MM_swapImgRestore()">
+                                <img name="index_r2_c3" src="../front_slices/gifs/index_r2_c3.gif" alt="The foundation"
+                                    border="0" height="27" width="104"></a>
+                        </td>
+                        <td>
+                            <a href="http://www.wsmcf.com/past_summits/past.htm" target="_self" onMouseOver="MM_swapImage('index_r2_c4','','../front_slices/gifs/index_r2_c4_f2.gif',1);"
+                                onmouseout="MM_swapImgRestore()">
+                                <img name="index_r2_c4" src="../front_slices/gifs/index_r2_c4.gif" alt="Past Summits"
+                                    border="0" height="27" width="98"></a>
+                        </td>
+                        <td>
+                            <a href="http://www.wsmcf.com/charters/charter.htm" target="_self" onMouseOver="MM_swapImage('index_r2_c5','','../front_slices/gifs/index_r2_c5_f2.gif',1);"
+                                onmouseout="MM_swapImgRestore()">
+                                <img name="index_r2_c5" src="../front_slices/gifs/index_r2_c5.gif" alt="Charters"
+                                    border="0" height="27" width="65"></a>
+                        </td>
+                        <td>
+                            <a href="http://www.wsmcf.com/research/research.htm" target="_self" onMouseOver="MM_swapImage('index_r2_c6','','../front_slices/gifs/index_r2_c6_f2.gif',1);"
+                                onmouseout="MM_swapImgRestore()">
+                                <img name="index_r2_c6" src="../front_slices/gifs/index_r2_c6.gif" alt="Resource Collection"
+                                    border="0" height="27" width="128"></a>
+                        </td>
+                        <td colspan="2">
+                            <a href="http://www.wsmcf.com/next_summit/next.htm" target="_self" onMouseOver="MM_swapImage('index_r2_c7','','../front_slices/gifs/index_r2_c7_f2.gif',1);"
+                                onmouseout="MM_swapImgRestore()">
+                                <img name="index_r2_c7" src="../front_slices/gifs/index_r2_c7.gif" alt="Research / IRFCAM"
+                                    border="0" height="27" width="127"></a>
+                        </td>
+                        <td>
+                            <a href="http://www.wsmcf.com/contact/contact.htm" target="_self" onMouseOver="MM_swapImage('index_r2_c9','','../front_slices/gifs/index_r2_c9_f2.gif',1);"
+                                onmouseout="MM_swapImgRestore()">
+                                <img name="index_r2_c9" src="../front_slices/gifs/index_r2_c9.gif" alt="Conact" border="0"
+                                    height="27" width="72"></a>
+                        </td>
+                        <td>&nbsp;
+                            
+                        </td>
+                        <td>
+                </table>
+            </th>
+        </tr>
+    </table>
+    </td>
+    <br />
+    <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <img src="../images/edge_top.gif" width="500" height="25">
+            </td>
+        </tr>
+    </table>
+    <table width="497" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td align="center" valign="top" bgcolor="#FFFFFF">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+            <td align="center" valign="top">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+            <td align="left" valign="middle">
+                <h1>
+                    <font color="#FFCC00" size="+1" face="Verdana, Arial, Helvetica, sans-serif">
+                        <img src="../images/sq_foundation.gif" alt="The Foundation" width="26" height="29">
+                        THE FOUNDATION</font></h1>
+            </td>
+            <td align="center" valign="top">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+            <td align="center" valign="top" bgcolor="#FFFFFF">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+        </tr>
+        <tr>
+            <td width="1" align="center" valign="top" bgcolor="#FFFFFF">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+            <td width="10" align="center" valign="top">
+                <img src="../images/spacer_10.gif" width="10" height="8">
+            </td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <p>
+                        <font color="#FFFFFF" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><font
+                            color="#FFFF99"><strong>The World Summit On Media For Children Foundation</strong>
+                            was established in 1999 to promote the World Summit movement. The Foundation is
+                            an independent, not-for-profit public company incorporated in Victoria, Australia.<br>
+                            <br>
+                        </font></font><font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            The Foundation's objectives are to encourage and promote the World Summit movement,
+                            as well as select and assist host organisations for future World Summits.<br>
+                        </font><font color="#FFFF99" size="-1"></font>
+                        <br>
+                        <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">The Foundation
+                            is led by its founder, Dr Patricia Edgar, and its Board of Directors. Foundation
+                            Patrons use their influence to support the Foundation.<br>
+                        </font><font color="#FFFF99" size="-1"></font>
+                        <br>
+                    </p>
+                </div>
+            </td>
+            <td width="10" align="center" valign="top">
+                <img src="../images/spacer_10.gif" width="10" height="8">
+            </td>
+            <td width="1" align="center" valign="top" bgcolor="#FFFFFF">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="top" bgcolor="#FFFFFF">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+            <td align="center" valign="top">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+            <td align="right" valign="middle">
+                <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                    <strong>
+                        <font color="#FFFFFF">
+                            Tender Documents
+                        </font> <a href="../tender/tender.htm" target="_self" onclick="MM_nbGroup('down','group1','link_bl2','../images/link_bl_f2.gif',1)"
+                                   onmouseover="MM_nbGroup('over','link_bl2','../images/link_bl_f2.gif','../images/link_bl_f2.gif',1)"
+                                   onmouseout="MM_nbGroup('out')">
+                            <img src="../images/link_bl.gif" name="link_bl2" width="47" height="36" border="0">
+                        </a>
+                    </strong>
+                </font>
+            </td>
+            <td align="center" valign="top">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+            <td align="center" valign="top" bgcolor="#FFFFFF">
+                <img src="../images/spacer_1.gif" width="1" height="1">
+            </td>
+        </tr>
+    </table>
+    <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <img src="../images/edge_bot.gif" width="500" height="25">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <img src="../images/edge_top55.gif" width="550" height="25">
+            </td>
+        </tr>
+    </table>
+    <table width="548" border="0" align="center" cellpadding="0" cellspacing="0">
+        <!-- patricia edgar -->
+        <a name="patriciaedgar"></a>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">
+                <img src="../images/patricia.png" alt="Dr Patricia Edgar, Chair" width="160" height="140"><br>
+                <br>
+            </td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <p>
+                        <font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#FFFF99">
+                            Dr Patricia Edgar, AM &#8211; Chair</font></strong></font><font color="#FFFF99" size="-1"
+                                face="Verdana, Arial, Helvetica, sans-serif"><br>
+                            </font><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><font color="#FFFF99">
+                                Dr Patricia Edgar AM. Founder and inaugural head of the Australian Children&rsquo;s
+                                Television Foundation <a href="http://www.actf.com.au" target="_blank">(ACTF)</a>. She was the architect of the Australian Children&rsquo;s
+                                Television Standards and founder of the World Summit Movement, hosting the first
+                                World Summit on Media for Children in Melbourne in 1995. She is a teacher, researcher,
+                                producer, writer and experienced policy maker. Her programs have garnered more than
+                                100 national and international awards. She is the author of 10 books, numerous articles
+                                and reports and widely recognized as an authority in the media field</font></font></p>
+                    <p>
+                        <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                    Website <a href="http://www.patriciaedgaranddonedgar.com" target="_blank">www.patriciaedgaranddonedgar.com</a><br>
+                    </p>
+              </div>
+            </td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- anna home -->
+        <tr>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <img src="../images/anna.jpg" alt="Anna Holme, Vice-Chairman" width="160" height="120"
+                    align="texttop"><br>
+                <br>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <p>
+                        <font color="#FFFFCC" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><strong>
+                            <font color="#FFFF99"><strong> Anna Home, OBE<font color="#FFFF99" 
+                            face="Verdana, Arial, Helvetica, sans-serif" size="-1"> - Deputy Chair</font></strong></font></strong></font><font color="#FFFF99"
+                                    size="-1" face="Verdana, Arial, Helvetica, sans-serif"><br>
+                            Chair: <a href="http://www.thechildrensmediafoundation.org" target="_blank">The Children's Media Foundation</a>; 
+                        Chair of the Second World Summit on Media 
+                        for Children held in London in 1998. Director, Producer and Executive producer 
+                        for BBC TV's Children's Programs for more than two decades, she specialized in 
+                        Children's drama. In 1981 she became a founding member of the ITV company TVS. 
+                        In 1986 she returned to the BBC as Head of Children's Television, responsible 
+                        for all children's output. She has been a member of the Councils of BAFTA and 
+                        the RTS and chaired the EBU's (European Broadcasting Union) Children's group for 
+                        many years. She is a trustee of the Prince of Wales Foundation for Children and 
+                        the Arts (CATA) and Chair of the Children's Media Conference (CMC). 
+                        </font>
+                    </p>
+                </div>          
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- adrian mills -->
+        <tr>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <img src="../images/adrian.jpg" alt="Adrian Mills" width="160" height="160">
+                    <br>
+                    <br>
+                </div>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <p>
+                        <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><strong>
+                    Adrian Mills</strong> <strong>- Deputy Chair</strong><br>
+                            <span lang="EN-US" style="font-size:12.0pt;line-height:
+115%;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">General Manager,<span style="mso-spacerun:yes">&nbsp;</span>BBC North</span>. Before returning to the
+                            BBC in 2009, Adrian was Chief Executive of LGT, Head of Children's for TVO and CBC
+                            Canada, and Chair of Summit 2000 - Children, Youth and Media Beyond the Millennium
+                            held in Toronto, Canada.
+                <br>
+                            <br>
+                            Adrian has over 20 years' leadership experience in education and broadcast media,
+                            responsible for the delivery of programmes on television, radio and online. He has
+                            commissioned, scheduled and produced programmes for adults and children for public
+                            service broadcasters in Canada and the UK. A dual British and Canadian citizen,
+                            he is a <a href="http://www.unicef.org" target="_blank">UNICEF</a> International Emmy Award winner and sits on the board of the World
+                            Summit Foundation for Children and Media. He is a member of the British Academy
+                            of Film and Television Arts <a href="http://www.bafta.org" target="_blank">(BAFTA)</a>.</font>
+                    </p>
+                </div>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- per lundgren -->
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">
+                <img src="../images/lundgren.png" alt="Dr P&auml;r Lundgren" width="160" height="213"><br>
+                <br>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><strong>
+                        Per Lundgren</strong></font><br />                    
+                    <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">Senior Media Advisor for the <a href="http://www.norden.org/en" target="_blank">Nordic Council of Ministers</a> in Copenhagen Denmark.<br />Director of The World Summit On Media for Children and Youth,
+                      Karlstad Sweden 2010. 
+                      <br>
+                    </font><font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                        Per studied International Relations in Sweden with a focus on developing countries.
+                        He has an M.A in Education from Greenwich University in London U.K. with focus on
+                        international project management. His studies include work with teachers in film,
+                        radio, television, theatre, journalism and advertising. He has written scripts for
+                        Swedish radio and television, articles for newspapers and media magazines, produced
+                        video and radio programs and written seven training books for media education in
+                        the Scandinavian countries. He lectures at Karlstad University in Media and Communication
+                        Studies.
+                        <br>
+                        His international experience over the past decade includes work with:
+                        <br />
+                        - United Nations Alliance of Civilizations (UN AoC). He is a Member of the group
+                        of founders of UN AoC Media Literacy Education Online Clearinghouse;
+                        <br />
+                        - Council of Europe, Strasbourg on "Human Rights in the Information Society";
+                        <br />
+                        - Unicef - Havana International Film Festival Jury;
+                        <br />
+                        - Unesco - Member expert group for Unesco Media and Information Literacy Curriculum.
+                    <br />
+                        <br />
+                        He was also Coordinator of the European Schoolnet Virtual School Media Department, 
+                        <a href="http://www.eun.org" target="_blank">www.eun.org</a>, Media Literacy Expert for the European Commission, and Project Manager
+                        for the European Commission supported project Alliance for a Media Literate Europe,
+                        <a href="http://www.allmediaeurope.se" target="_blank">www.allmediaeurope.se</a> (2002-2004)
+                        <br />
+                    </font>
+                   <p>
+                    <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">2010 Summit Website <a href="http://www.wskarlstad2010.se"
+                                        target="_blank">www.wskarlstad2010.se</a> </font>
+                   </p>
+                   <p>
+                       <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">Personal contact email address: <a href="mailto:mediebok@hotmail.com">mediebok@hotmail.com</a>                         <br>
+                                </font>                        
+                   </p>
+              </div>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- javad m -->
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">
+                <img src="../images/javad.png" alt="Dr. Javad Mottaghi" width="160" height="160"><br>
+                <br>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <p>
+                        <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            <strong>Dr Javad Mottaghi</strong><br>is currently the Secretary-General of the Asia-Pacific Broadcasting Union <a href="http://www.abu.org.my"
+                                target="_blank">(ABU)</a>. 
+                            He holds a Bs. Degree in Mechanical Engineering from Tehran Sharif University of Technology,
+                            Masters Degree in Management and is a PhD. Candidate in Management from the University
+                            of Teesside, England. He is also a member of the Board for the World Radio & Television
+                            Council (WRTVC) since 2001. Dr Mottaghi is currently Associate member of The International
+                            Academy of Television Arts & Sciences in New York and a member of The International
+                            Academy of Television and Radio in Russia since December 2002. With his vast experience
+                            in broadcasting over the past 30 years, Dr Javad Mottaghi has been specifically
+                            tasked by the Governing Council to implement the Institute's new Strategic Plan,
+                            formulated by a special task force, to propel the AIBD into the next millennium</font></p>
+                    <p>
+                        <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">Dr Mottaghi
+                            has 30 years of national and international experience in media/communication in
+                            the following areas: International Affairs, Media/Communication Development and
+                            Broadcasting, AV productions and co-production, ICTs, capacity building, networking,
+                            research, publications, negotiations, fund raising, news and programming for radio
+                        and television, social and cultural television programs and sports coverage.<br>
+                            <br>
+                            Dr Mottaghi was awarded with the Elizabeth R Award for Exceptional Contribution to Public Service Broadcasting. The award was presented by the Commonwealth Broadcasting Association (CBA) during its General Assembly in Tonga on 11th February 2009.
+                            </font>
+                    </p>
+                    <p>
+                        <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                        E-mail: <a href="mailto:javad@abu.org.my">javad@abu.org.my</a>
+                        </font>
+              </div>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- patricia c -->
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">
+               <img src="../images/patriciaC.jpg" alt="Patricia Castano" width="142" height="236"></font><br>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <p>
+                        <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                    <strong>Patricia Castano</strong><br />
+                            Founder Citurna Productions and Imaginario.<br />
+                            <br />
+                            Patricia studied Social Science, in Colombia and Wales (UK) and Direction and Television Production at the BBC/ Open University and Elstree TV training centre. She has worked with the BBC as local producer for the series Made in Latin America.  In 1986, with colleague Adelaida Trujillo she founded CITURNA PRODUCCIONES - a leading production house for children's and educational television as well as social, political and environmental documentaries in Colombia. Citurna's productions have been commissioned by European public TV, awarded international distinctions (those for children include INPUT, EMMY, IDFA, Prix Jeunesse and Prix Jeunesse Iberoamericano).Documentaries have been broadcast by more than 30 international channels. 
+                            <br /><br />
+                            From the mid 90s Citurna, developed local television series with the support of multimedia educational strategies, aimed at youth and children, the priority audiences which need to be addressed, to promote social change in Colombia and Latin America. 
+                            In 1999, Patricia with other important professionals, created Imaginario, a multidisciplinary, non profit organization to promote the use of television and media for social change and development. Imaginario's activities include public debate, capacity building and influencing public policy; production, knowledge management and networking. Since 2000, Imaginario and Citurna have organized TV de Calidad, Colombia's annual international TV screening conference, which showcases the Prix Jeunesse Suitcase and INPUT and brings leading children's television experts and projects from all over the world. 
+                            <br /><br />
+                            Since 2004, Imaginario has led - with the support of UNICEF, the Prix Jeunesse Foundation, the National TV Comission and the First Lady's office - the Compromiso Nacional de Televisión de Calidad para la Infancia en Colombia - a national commitment to improve the quality of children?s television in Colombia. Patricia also presides over a voluntary organisation, Bibloamigos, friends of the Bogota public libraries   (www.bibloamigos.org). 
+                            <br /><br />
+                    E-mail: <a href="mailto:patriciacastano@yahoo.com">patriciacastano@yahoo.com</a></font></p>
+              </div>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- ellen w -->
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">
+                <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                    <img src="../images/ewartella.jpg" alt="Ellen Wartella" width="140" height="176"/></font><br>
+                <br>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    
+                        <p>
+                            <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            <strong>
+                            Ellen Ann Wartella, Ph.D.</strong></font><br />
+                            <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            The Al-Thani Professor of Communication, Professor of Psychology and Professor of Human Development and Social Policy
+                            <span lang="EN-US" style="font-size:12.0pt;line-height:
+115%;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">and Professor of Medical Social 
+                            Sciences; Director, Center on Media and Human Development</span> at Northwestern University. 
+                            Ellen is a leading scholar of the role of media in children's development and serves on a variety of national and international boards and committees on children's issues. She is co-principal investigator of the Children's Digital Media Center project funded by the National Science Foundation (2001-2011) and was co-principle investigator on the National TV Violence Study (1995-1998). She has published widely in communication and psychology journals on children's media issues. 
+                            Ellen was Dean of the College of Communication at the University of Texas from 1993-2004 and Executive Vice Chancellor and Provost at the University of California-Riverside from 2004-2009. Before joining the faculty at Northwestern in March 2010 she was Distinguished Professor of Psychology at the University of California-Riverside. 
+                            Dr. Wartella currently serves on the Board of the World Summit Foundation, the Academic Advisory Board of the Children's Advertising Review Unit of the Council of Better Business Bureaus, the advisory boards of the Rudd Center on Food Marketing and Childhood Obesity at Yale University and the Center on Media and Children's Health at Harvard University. She is a Trustee of 
+                            <a href="http://www.sesameworkshop.org/" target="_blank">Sesame Workshop</a> and serves on the PBS Kids Advisory Board.
+                            <br/><br/>                        
+                            Email for contact : <a href="mailto:ellen-wartella@northwestern.edu">ellen-wartella@northwestern.edu</a> 
+                            </font> 
+                        </p>
+                </div>
+                <div align="left">
+                </div>
+         </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- alice w -->
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">
+                <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                <img src="../images/AliceWebb_160x163.jpg" alt="Alice Webb" width="160" height="163"/></font></td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    <p>
+                       <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><strong>
+                            Alice Webb Director, BBC Children's</strong><br />
+                            Alice Webb is Director, BBC Children's, responsible for the UK's two most popular networks for our youngest audiences, CBeebies and CBBC. 
+                            Formerly, Chief Operating Officer (COO), BBC England, Alice was responsible for overseeing all aspects of technology, people, workspace, migration and future ways of working across the BBC sites in Salford, Bristol and Birmingham. This included orchestrating the successful move of key BBC departments including Sport, BBC Children's, 5 live and BBC Learning to Salford, in the biggest BBC move outside London in its history.
+                            Alice joined the BBC a decade ago from PA Consulting Group where she worked with organisations including Orange, The Cabinet Office, Reuters and Deutsche Bank.   
+                            Alice is also a Chartered Civil Engineer, spending her early career working on large scale construction projects across the UK and internationally.
+                            Alice is a Trustee of the Greater Manchester Art Centre (Home) and is a member of BAFTA.
+                        </font>
+                    </p>
+                </div>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- chris l -->
+        <tr>
+           <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+           <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+           <td align="center" valign="top">
+                <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                <img src="../images/clovell.jpg" alt="Chris Lovell" width="141" height="209"/></font><br>
+            </td>
+           <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+           <td align="center" valign="top">
+                <div align="left">
+                    <p>
+                       <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><strong>
+                            Chris Lovell LLB, BA, LLM</strong><br />
+                            National Managing Partner - Holding Redlich, Director - Clemenger Group Limited, Director - Victorian Rail Track Authority, 
+                            Trustee - Melbourne Cricket Ground Trust, and Chair - Melbourne Community Foundation.
+                        </font>
+                    </p>
+                </div>
+            </td>
+           <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+           <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- ahmad j -->
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">
+                <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                    <img src="../images/Jailani.png" alt="Ahmad J" width="140" 
+                    height="176"/></font><br>
+                <br>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                <div align="left">
+                    
+                        <p>
+                            <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            <strong>
+                            Ahmad Jailani Muhamed Yunus (Member).</strong></font></p>
+                        <p>
+                            <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            PhD (Landscape Ecology and Environmental Management), Hiroshima University, Hiroshima, Japan.</font><br />
+                            <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            Currently, he is the Deputy Director-General of Broadcasting (Strategic), Department of Broadcasting Malaysia.<br/>
+                            Being a member of the National Digital Task Force Committee, this enables him to oversee the entire management of the Department of Broadcasting Malaysia in its daily operations that are equipped with the state-of-the-art technology and supported by well trained and professional staff.   
+                            The scope of duty covers the following: 
+                            <br/> - Radio and TV programming
+                            <br/> - News and Current Affairs</li>
+                            <br/> - Implementation of Digital Media Interactive in relating to digital contents (mobiles services/live streaming)</li>
+                            <br/> - Financial Management</li>
+                            <br/> - Human Resources Management</li>
+                            <br/> - Digital Archiving System</li>
+                            <br/> - Advocating the national creative industry policy</li>
+                            <br />
+                            Dr. Ahmad Jailani was elected as a Vice-President of the Asia-Pacific Broadcasting Union (ABU) at the 2012 ABU General Assembly in Seoul for three years term as from 1st January 2013. 
+                            Hence, by virtue of his position, automatically, he sits as ABU's "Board of Directors" known as the Administrative Council, which comprises 14 Full and Additional Full Members including RTM.
+                            <br />Dr. Ahmad Jailani has also been appointed to the WSMC Foundation Board of Member.
+	                        <br /><br />
+	                        Prior to this, Dr. Ahmad Jailani has held various public positions in the capacity as USM's tutor for 
+                            Distance Learning, IDEC Tutor of Hiroshima University, Japan, an Assistant Secretary of the Public 
+                            Service Commission and an Assistant Director of the Public Service Department of Malaysia respectively, 
+                            senior programme coordinator, Head of Centre Programme for Local Government, Environment and District 
+                            Management as well as Head of Programme for Environmental Management. 
+                            <br/><br/>                        
+                            Emails for contact : <a href="mailto:jailaniyunus@rtm.gov.my">jailaniyunus@rtm.gov.my</a> and <a href="mailto:jailaniyunus@yahoo.com">jailaniyunus@yahoo.com</a>  
+                            </font> 
+                        </p>
+                </div>
+         </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+        </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+        <!-- vijay s -->
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">
+                <font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                    <img src="../images/VijaySadhu.png" alt="image" width="160" 
+                    height="185"/></font><br>
+                <br>
+            </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">
+                 <div align="left">
+
+                    <p>
+                       <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            <strong>Vijay Sadhu (Member)</strong></font></p>
+                     <p>
+                         <font color="#FFFF99" size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+                            Senior Executive Programming Asia Pacific Broadcasting Union.<br /><br />
+                            Vijay Sadhu joined the Asia-Pacific Broadcasting Union (ABU) in 2005 to take up the position of Senior Executive Programming. She initiated the radio programming activities in the Union, creating several forums and devising a wide range of activities. As a part of this, she organises a number of radio programming conferences and content developmental workshops every year, including the IRIB Radio Forum.<br /><br />
+                            She has served on the jury panel of prestigious international radio competitions like the New York Festival, Iran International Radio Festival and the Turquoise Festival of Turkey.<br /><br /> 
+                            Vijay has presented papers in several international conferences and gatherings of experts from all parts of the world. She is quite well known among the broadcasting industry in the region.<br /><br />
+                            She is quite well versed with the impact and the needs of content for digital radio. Her forte is international interaction with broadcasters and industry professionals.<br /><br />
+                            Vijay Sadhu started her media career in 1980 in All India Radio - Doordarshan, the national public broadcaster of India. As a Programme Executive, she was responsible for conceptualising, directing and creating TV and radio programme content. She also took up management responsibilities later. She has vast professional experience in the field of radio and television programming and broadcasting, having directed and produced more than 1400 radio and TV programmes in her career.<br /><br />
+ 	                        As an artiste, Vijay has made many public performances playing on Sitar and on electric guitar. She holds a Masters degree in Indian instrumental classical music.
+                       </font>
+                    </p>
+                </div>
+         </td>
+            <td align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif" width="1" height="1"></td>
+            </tr>
+        <tr>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#ffffff"><img src="../images/spacer_1.gif"></td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" align="center" valign="top"><img src="../images/spacer_10.gif" width="10" height="1"></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td width="10" height="1" align="center" valign="top"><img src="../images/spacer_10.gif"></td>
+            <td width="1" height="1" align="center" valign="top" bgcolor="#FFFFFF"><img src="../images/spacer_1.gif"></td>
+        </tr>
+    </table>
+    <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <img src="../images/edge_bot55.gif" width="550" height="25">
+            </td>
+        </tr>
+    </table>
+    <br>
+</body>
+</html>
